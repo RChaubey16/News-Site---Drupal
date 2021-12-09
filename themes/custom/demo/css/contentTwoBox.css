@@ -1,0 +1,24 @@
+.block-views-blockcontent-box-1-block-1 .content .view .view-content .views-row .views-field-title .field-content a {
+  font-size: 1rem;
+  font-weight: 800;
+  color: grey;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.block-views-blockcontent-box-1-block-1 .content .view .view-content .views-row .views-field-title .field-content a:hover {
+  color: #e33b26;
+}
+
+.block-views-blockcontent-box-1-block-2 .content .view .view-content .views-row .views-field-title .field-content a {
+  font-size: 0.9rem;
+  font-weight: 900;
+  color: grey;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.block-views-blockcontent-box-1-block-2 .content .view .view-content .views-row .views-field-title .field-content a:hover {
+  color: #e33b26;
+}
+/*# sourceMappingURL=contentTwoBox.css.map */

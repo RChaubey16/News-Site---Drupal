@@ -1,0 +1,42 @@
+name: Demo
+type: theme
+description: A demo custom theme for drupal news site
+core_version_requirement: ^8 || ^9
+base theme: bartik
+
+libraries:
+  - demo/global-styling
+  - demo/global-scripts
+  # - demo/bootstrap
+
+regions: 
+  header_details_block_1: 'Header_details_block_1'
+  header_details_block_2: 'Header_details_block_2'
+  header_logo: 'Header_Logo'
+  primary_menu: 'Primary Menu'
+  hamburger_menu: 'Hamburger Menu'
+  banner_top: 'Banner (top)'
+  content: 'Content'
+  content_highlight: 'content_highlight'
+  content_column_1: 'content_column_1'
+  content_column_2: 'content_column_2'
+  vertical_column: 'vertical_column'
+  banner_bottom: 'Banner (bottom)'
+  content_bottom1: 'Content (bottom) 1'
+  content_bottom_box1: "Content Bottom Box 1"
+  content_bottom_box2: "Content Bottom Box 2"
+  sidebar_second: 'sidebar_second'
+
+  topic_news_image: 'Topic News Image'
+  topic_news_list: 'Topic News list'
+  topic_news_sidebar: "Topic News Sidebar" 
+
+  featured_news: "Featured News"
+  grid_news: "Grid News"
+
+  footer_1: 'footer_1'
+  footer_2: 'footer_2'
+  footer_3: 'footer_3'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'

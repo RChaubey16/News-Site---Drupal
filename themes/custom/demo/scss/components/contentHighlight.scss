@@ -1,0 +1,45 @@
+@import "../abstracts/colors";
+
+// Content hightlight region
+.block-views-blockcontent-highlight-news-block-1 {
+  .content .view-id-content_highlight_news {
+    .view-content .views-row {
+      .views-field-field-image .field-content {
+        transition: transform 0.25s ease-in-out;
+        a {
+          img {
+            border-radius: 10px;
+          }
+        }
+      }
+
+      .views-field-title .field-content {
+        a {
+          
+          position: absolute;
+          top: 87%;
+          padding: 0 1rem;
+          font-size: 1.1rem;
+          color: $primary;
+          font-weight: 500;
+          transition: all 0.25s ease-out;
+        }
+      }
+    }
+  }
+}
+
+// Media queries
+
+@media only screen and (max-width: 768px) {
+  .block-views-blockcontent-highlight-news-block-1 {
+    .content .view-id-content_highlight_news {
+      .view-content .views-row {
+        .views-field-title .field-content a {
+          top: 40%;
+          color: $green;
+        }
+      }
+    }
+  }
+}

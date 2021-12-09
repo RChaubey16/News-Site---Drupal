@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AACI,wDADoD,CACpD,EAAE,CAAA;EACE,cAAc,EAAE,SAAS;EACzB,KAAK,ECJL,KAAK;EDKL,WAAW,EAAE,GAAG;CACnB;;AALL,AAUoB,wDAVoC,CAMpD,QAAQ,CAAC,uCAAuC,CAC5C,aAAa,CAAC,gBAAgB,CAC1B,UAAU,CAAC,UAAU,CACjB,wBAAwB,CAAC,cAAc,CACnC,CAAC,CAAC,GAAG,CAAA;EACD,aAAa,EAAE,IAAI;CACtB;;AAZrB,AAgBoB,wDAhBoC,CAMpD,QAAQ,CAAC,uCAAuC,CAC5C,aAAa,CAAC,gBAAgB,CAC1B,UAAU,CAAC,UAAU,CAOjB,kBAAkB,CACd,IAAI,CAAC,CAAC,CAAA;EACF,SAAS,EAAE,OAAO;EAClB,WAAW,EAAE,GAAG;CACnB",
+    "sources": [
+        "../scss/components/youMayLike.scss",
+        "../scss/abstracts/_colors.scss"
+    ],
+    "names": [],
+    "file": "youMayLike.css"
+}

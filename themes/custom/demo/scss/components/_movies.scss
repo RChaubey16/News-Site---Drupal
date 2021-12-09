@@ -1,0 +1,29 @@
+.block-views-blockmovies-block-1 {
+  .content .view-movies .view-content {
+    .views-view-grid .views-row .views-col {
+      display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+        .views-field-field-image{
+            .field-content a{
+                img{
+                    border-radius: 10px;
+                    transition: .25s ease-out;
+                    &:hover {
+                        opacity: 0.6;
+                    }
+                }
+            }
+        }
+      .views-field-body {
+          width: 70%;
+          margin-left: 13px;
+        .field-content {
+          p {
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+}

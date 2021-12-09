@@ -1,0 +1,28 @@
+@import '../abstracts/colors';
+// content bottom (You may like)
+.block-views-blockcontent-bottom-1-you-may-like--block-1{
+    h2{
+        text-transform: uppercase;
+        color: $black;
+        font-weight: 900;
+    }
+    .content .view-id-content_bottom_1_you_may_like_{
+        .view-content .views-view-grid{
+            .viewa-col .views-row{
+                .views-field-field-image .field-content{
+                    a img{
+                        border-radius: 10px;
+                    }
+                }
+
+                .views-field-title{
+                    span a{
+                        font-size: 0.85rem;
+                        font-family: 600;
+                    }
+                }
+            }
+        }
+    }
+}
+

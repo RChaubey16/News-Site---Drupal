@@ -1,0 +1,31 @@
+.block-views-blockindia-fights-covid-block-1 {
+  padding: 2rem 0;
+  border-bottom: 2px dotted $border;
+  .content .view-india-fights-covid .view-content {
+    .views-view-grid .views-col .views-row {
+      .views-field-field-image {
+        .field-content a {
+            
+          img {
+            border-radius: 10px;
+            transition: 0.25s ease-out;
+           &:hover{
+            opacity: 0.7;
+           }
+          }
+        }
+      }
+
+      .views-field-title {
+        span a {
+          font-size: 0.85rem;
+          font-weight: 600;
+
+          &:hover {
+            color: $primary;
+          }
+        }
+      }
+    }
+  }
+}

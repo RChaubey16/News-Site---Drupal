@@ -1,0 +1,15 @@
+.block-views-blockspotlight-block-1{
+    margin: 2rem;
+    border-top: 2px dotted $black;
+    border-bottom: 2px dotted $black;
+    .content .view-display-id-block_1{  
+        display: flex;
+        justify-content: center;
+    }
+}
+
+// News Taglines
+.block-views-blocknews-taglines-block-1{
+    border-bottom: 2px dotted $border;
+    padding: 2rem 0;
+}

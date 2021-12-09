@@ -1,0 +1,86 @@
+.block-views-blocktopic-image-news-block-1, .block-views-blocktopic-image-news-block-2 .content{
+    width: 85%;
+    margin-bottom: 6.5rem;
+    .view-id-topic_image_news .view-content  .vertical{
+        .topic-image-box-col .topic-image-box-row{
+            .views-field-field-image .field-content{
+                a{
+                    img{
+                        border-radius:10px;
+                    }
+                }
+            }
+
+            .views-field-title {
+                // border: 1px solid black;
+                width: 100%;
+                    .field-content{
+                    a{
+                        font-size: 0.9rem;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// News list
+
+.block-views-blocktopic-wise-news-list-block-1, .block-views-blocktopic-wise-news-list-block-2{
+    margin-bottom: 9rem;
+    .content{
+        .topic-news-list{
+            padding-right: 1rem;
+            li{
+                color: grey;
+                &:hover{
+                    color: red;
+                }
+            }
+
+            .views-field{
+                span a{
+                    color: grey;
+                    &:hover{
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Sidebar topic list
+.block-views-blocktopic-wise-sidebar-news-list-block-1, .block-views-blocktopic-wise-sidebar-news-list-block-2 .content{
+    margin-bottom: 2rem;
+    .view-id-topic_wise_sidebar_news_list .view-content{
+        table tbody{
+            border-left: 2px dotted #a5a5a5;
+            tr{
+                background-color: white;
+                td{
+                    padding-left: 1rem;
+                    a img{
+                        border-radius:5px;
+                    }
+
+                }
+
+                .views-field-title{
+                    a{
+                        color: rgb(88, 88, 88);
+                        &:hover{
+                            color: red;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.block-views-blocktopic-wise-sidebar-news-list-block-2{
+    margin-top: 5rem;
+    
+}

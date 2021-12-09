@@ -1,0 +1,230 @@
+@import 'abstracts/colors';
+@import "slideshow";
+@import 'components/_hamMenu';
+@import "components/contentHighlight";
+@import "verticalBox";
+@import "components/spotlight";
+@import "components/youMayLike";
+@import "components/indiaCovid";
+@import "components/contentTwoBox";
+@import "components/topicNews";
+@import "components/featuredNews";
+@import "components/_movies";
+@import "components/girdNews";
+@import "components/footer";
+
+* {
+  font-family: "Montserrat", "Verdana", arial, sans-serif;
+
+}
+
+body {
+  background-color: $white;
+  max-width: 85%;
+  padding-left: 7.5%;
+}
+
+.layout-container {
+  background-color: $white;
+  padding: 0 1%;
+}
+
+// Nav
+.region-header-details-block-2 {
+  display: flex;
+  align-items: center;
+  p {
+    margin: 0;
+  }
+}
+
+.menu--account {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .content .menu {
+    display: flex;
+
+    li {
+      margin-right: 1rem;
+    }
+  }
+}
+
+// TOI subscribe button
+.block-views-blockheader-block-2-subscribe-button-block-1 {
+  .content {
+    .view-id-header_block_2_subscribe_button {
+      .view-content .views-row .views-field {
+        .field-content p {
+          margin-right: 10px;
+          padding: 2px 10px;
+          color: $white;
+          font-weight: 800;
+          border-radius: 5px;
+          background-color: $primary;
+        }
+      }
+    }
+  }
+}
+
+/* Logo text */
+.site-branding__text {
+  display: none;
+}
+
+/* Nav - Primary Menu region */
+
+.nav__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid $border;
+}
+
+.navlinks__box ul li {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid blue   ; */
+  background: $white;
+}
+
+.navlinks__box ul li a {
+  border: none;
+  font-size: 0.8rem;
+  transition: all 250ms ease-in-out;
+}
+
+.navlinks__box ul li a:hover {
+  color: $primary;
+  transform: translateY(-5px);
+}
+
+// column 1
+.block-views-blockcontent-column-1-block-1 {
+  .content .view-content-column-1 .view-content {
+    .views-table {
+      tbody {
+        tr {
+          background-color: $white;
+        }
+      }
+      td {
+        padding-top: 1rem;
+        border-bottom: 1px solid rgb(194, 191, 191);
+
+        img {
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}
+
+// Column 2
+.block-views-blockcontent-column-2-block-1 {
+  .content .view-content-column-2 .view-content {
+    .views-table {
+      tbody {
+        tr {
+          background-color: $white;
+        }
+      }
+      td {
+        padding-top: 1rem;
+        border-bottom: 1px solid rgb(194, 191, 191);
+
+        img {
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}
+
+/* Content blocks on home and briefs page */
+.block-views-blockhome-page-news-list-sidebar-first--block-1 table td,
+.block-views-blockhome-page-news-list-sidebar-first--block-2 table td {
+  background-color: $white;
+}
+
+.block-views-blockhome-page-news-list-sidebar-first--block-1 {
+  box-shadow: 0px 3px 5px 0px $box_shadow;
+}
+
+.block-views-blockhome-page-news-list-sidebar-first--block-2 {
+  /* border: 1px solid green; */
+  box-shadow: 0px 3px 5px 0px $box_shadow;
+}
+
+.views-field a {
+  color: $black;
+  border: none;
+  font-size: 0.8rem;
+}
+
+/* Home Page - views listing */
+
+.node__title a span {
+  transition: 50ms ease-in-out;
+}
+
+.node__title a:hover {
+  border: none;
+}
+
+.node__title a span:hover {
+  color: $primary;
+}
+
+/* Search box */
+
+.block-search {
+  /* background-color: #EFEFEF; */
+  padding: 0.5rem 0;
+  margin: 1rem 0;
+}
+
+.block-search h2 {
+  text-align: center;
+  color: $primary;
+}
+
+.block-search .content form .form-search {
+  width: 70%;
+  margin-left: 1vw;
+}
+
+// Headlines sidebar
+.block-views-blockheadlines-block-1 {
+  .content .view-headlines .view-content {
+    table tbody tr {
+      background-color: $white;
+
+      td {
+        padding: 7px 10px;
+        border-radius: 8px;
+        border-bottom: 2px dotted rgb(155, 153, 153);
+      }
+    }
+  }
+}
+
+// Media Queries
+@media only screen and (max-width: 428px) {
+  // TOI subscribe button
+  .block-views-blockheader-block-2-subscribe-button-block-1 {
+    .content {
+      .view-id-header_block_2_subscribe_button {
+        .view-content .views-row .views-field {
+          .field-content p {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

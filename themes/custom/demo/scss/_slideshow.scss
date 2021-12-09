@@ -1,0 +1,22 @@
+
+/* Banner slideshow */
+
+.field-content a {
+    border: none;
+  }
+  
+  .views_slideshow_slide_counter {
+    text-align: end;
+    color: rgb(139, 134, 134);
+  }
+  
+  .views_slideshow_controls_text a {
+    border: none;
+    margin-right: 1rem;
+    color: $primary;
+  }
+  
+  .views_slideshow_controls_text a:hover {
+    color: rgb(139, 134, 134);
+    border: none;
+  }
