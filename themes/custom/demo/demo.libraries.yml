@@ -1,26 +1,27 @@
 fonts:
   version: 1.0
-  css: 
-    theme: 
-      "https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap": {type: external}
+  css:
+    theme:
+      "https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap":
+        { type: external }
 
 global-styling:
   version: 1.0
   css:
     theme:
-      css/global.css: {weight: -10}
-      css/responsive.css: {weight: -10}
-    layout: 
-      css/layout.css: {weight: -10}
-      css/articleLayout.css: {weight: -10}
+      css/global.css: { weight: -10 }
+      css/responsive.css: { weight: -10 }
+    layout:
+      css/layout.css: { weight: -10 }
+      css/articleLayout.css: { weight: -10 }
 
 global-scripts:
   version: 1.0
   js:
-    js/menu.js: {weight: -10}
+    js/menu.js: { weight: -10 }
 
 bootstrap:
   version: 1.0
-  css: 
+  css:
     theme:
-      css/bootstrap.min.css: {weight: -10}
+      css/bootstrap.min.css: { weight: -10 }

@@ -220,6 +220,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-left: -105px;
 }
 
 .grid-news__container {
