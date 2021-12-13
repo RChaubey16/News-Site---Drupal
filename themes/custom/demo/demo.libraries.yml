@@ -19,6 +19,7 @@ global-scripts:
   version: 1.0
   js:
     js/menu.js: { weight: -10 }
+    js/search.js: { weight: -10 }
 
 bootstrap:
   version: 1.0

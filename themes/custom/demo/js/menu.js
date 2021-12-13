@@ -21,4 +21,4 @@ closeIcon.addEventListener('click', function(){
     hamMenuItems.style.display = 'none';
     closeIcon.style.display = 'none';
         flag = 'off';
-})
+});

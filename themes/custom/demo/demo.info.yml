@@ -13,6 +13,7 @@ regions:
   header_details_block_1: 'Header_details_block_1'
   header_details_block_2: 'Header_details_block_2'
   header_logo: 'Header_Logo'
+  search_box: "Search Block"
   primary_menu: 'Primary Menu'
   hamburger_menu: 'Hamburger Menu'
   banner_top: 'Banner (top)'
