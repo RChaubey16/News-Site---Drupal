@@ -1,11 +1,26 @@
-<?php 
+<?php
 
-function demo_preprocess_input__submit(&$variables){
-    $variables['attributes']['placeholder'] = "SEARCH";
+function demo_preprocess_page(&$variables){
+    // $variables['date_time'] = date("M-d-Y, H:i");
+    $date = date_create("2021-12-13");
+    $variables["date"] = date_format($date, "d-M-Y, H:i");
 }
 
-function demo_preprocess_fontawesomeicon(&$variables){
+function demo_preprocess_input__submit(&$variables)
+{
+    // Kint($variables);
+    $variables['attributes']['placeholder'] = "SEARCH";
+    $variables['attributes']['value'] = $variables['element']['#value'];
+}
+
+function demo_preprocess_fontawesomeicon(&$variables)
+{
     // $variables['name'] = "fa-2x fa-times";
     $variables['id'] = "search_icon";
-    // Kint($variables);
+}
+
+function demo_form_search_block_form_alter(&$form, &$form_state)
+{
+    // Kint($form);
+    $form['keys']['#attributes']['placeholder'][] = t('Search...');
 }

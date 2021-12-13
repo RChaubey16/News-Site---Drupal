@@ -1,8 +1,6 @@
-<div
-	class="layout-container">
+<div class="layout-container">
 
-	{# {{ kint(variable) }} #}
-
+	{{ date }}
 	<header class="header__logoWrapper" role="banner">
 		<div class="header__details">
 			<div class="header_block_1">
@@ -34,25 +32,19 @@
 		</div>
 	</div>
 
+	<div class="layout__mainContent">
+		{% if page.content %}
+			{{ page.content }}
+		{% endif %}
+	</div>
+
 
 	<main class="layout__main" role="main">
 		<a id="main-content" tabindex="-1"></a>
 
-		{# <div class="layout__sidebar-first">
-																	{% if page.sidebar_first %}
-																		<aside class="layout-sidebar-first" role="complementary">
-																			{{ page.sidebar_first }}
-																		</aside>
-																	{% endif %}
-																</div> #}
-
 
 		<div class="layout-content">
-			<div class="main__content">
-				{% if page.content %}
-					{{ page.content }}
-				{% endif %}
-			</div>
+			<div class="main__content"></div>
 
 			<div class="layout__homeBox1">
 				<div class="layout-content__highlight">
