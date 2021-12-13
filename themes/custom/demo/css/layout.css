@@ -40,10 +40,11 @@
 }
 
 .header__logoWrapper .header__search {
+  display: none;
   position: fixed;
-  width: 83%;
-  height: 22vh;
-  background-color: #fafafa;
+  width: 85%;
+  height: 25vh;
+  background-color: rgba(250, 250, 250, 0.95);
   z-index: 2;
 }
 

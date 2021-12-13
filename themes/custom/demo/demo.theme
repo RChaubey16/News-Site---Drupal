@@ -1,5 +1,11 @@
 <?php 
 
 function demo_preprocess_input__submit(&$variables){
-    $variables['attributes']['value'] = "SEARCH";
+    $variables['attributes']['placeholder'] = "SEARCH";
+}
+
+function demo_preprocess_fontawesomeicon(&$variables){
+    // $variables['name'] = "fa-2x fa-times";
+    $variables['id'] = "search_icon";
+    // Kint($variables);
 }
