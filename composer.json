@@ -24,9 +24,11 @@
         "drupal/core-vendor-hardening": "^9.2",
         "drupal/devel": "^4.1",
         "drupal/devel_kint_extras": "^1.0",
+        "drupal/ds": "^3.13",
         "drupal/fontawesome": "^2.19",
         "drupal/interval": "^1.9",
         "drupal/pathauto": "^1.8",
+        "drupal/search_api_page": "@dev",
         "drupal/views_slideshow": "^4.8",
         "drupal/webform": "^6.1"
     },
