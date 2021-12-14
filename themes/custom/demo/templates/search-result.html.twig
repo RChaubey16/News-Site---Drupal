@@ -58,16 +58,27 @@
 #}
 {{ attach_library('bartik/classy.search-results') }}
 {{ title_prefix }}
-<h3{{ title_attributes.addClass('search-result__title') }}>
-  <a href="{{ url }}">{{ title }}</a>
-</h3>
-<img src={{ img_link }} alt="image">
-{{ title_suffix }}
-<div class="search-result__snippet-info">
-  {% if snippet %}
-    <p{{ content_attributes.addClass('search-result__snippet') }}>{{ snippet }}</p>
-  {% endif %}
-  {% if info %}
-    <p class="search-result__info">{{ info }}</p>
-  {% endif %}
+<div class="search-card__container">
+
+	<div class="search__imageContainer">
+		<img src={{ img_link }} alt="image">
+	</div>
+
+	<div class="search__infoContainer">
+		<h3{{title_attributes.addClass('search-result__title')}}>
+			<a href="{{ url }}">{{ title }}</a>
+		</h3>
+		{{ title_suffix }}
+		<div class="search-result__snippet-info">
+        	{% if info %}
+				<p class="search-result__info">{{ info }}</p>
+			{% endif %}
+
+			{% if snippet %}
+				<p{{content_attributes.addClass('search-result__snippet')}}>{{ snippet }}</p>
+			{% endif %}
+		
+		</div>
+	</div>
+
 </div>

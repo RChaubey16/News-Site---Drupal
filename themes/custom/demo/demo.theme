@@ -1,5 +1,7 @@
 <?php
 
+
+
 function demo_preprocess_page(&$variables)
 {
     // $variables['date_time'] = date("M-d-Y, H:i");
@@ -28,7 +30,8 @@ function demo_form_search_block_form_alter(&$form, &$form_state)
 // 
 function demo_preprocess_search_result(&$variables)
 {
+    
     $node = $variables['result']['node'];
     $variables['img_link'] = file_create_url($node->field_image->entity->getFileUri());
-    // kint($variables);   
+    // kint($variables);
 }

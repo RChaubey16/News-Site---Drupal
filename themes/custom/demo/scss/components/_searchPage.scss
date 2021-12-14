@@ -1,0 +1,43 @@
+.search-card__container{
+    display: flex;
+
+    .search__imageContainer{
+        height: 100%;
+        max-width: 20vw;
+        margin-right: 1rem;
+        img{
+            object-fit: cover;
+            border-radius: 5px;
+        }
+    }
+
+    .search__infoContainer{
+        width: 70%;
+
+        h3 a{
+            padding-bottom: 1rem;
+            font-size: 1.25rem;
+            text-decoration: none;
+            border: none;
+            color: $black;
+
+            &:hover{
+                color: $primary;
+            }
+        }
+        .search-result__snippet-info{
+            p{
+                font-size: 0.875rem;
+                margin-bottom: 22px;
+            }
+            .search-result__info a{
+                color: $primary;
+                border: none;
+
+                &:hover{
+                    color: black;
+                }
+            }
+        }
+    }
+}
