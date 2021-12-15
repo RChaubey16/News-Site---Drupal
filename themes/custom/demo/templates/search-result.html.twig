@@ -58,10 +58,11 @@
 #}
 {{ attach_library('bartik/classy.search-results') }}
 {{ title_prefix }}
+{{ content_title }}
 <div class="search-card__container">
 
 	<div class="search__imageContainer">
-		<img src={{ img_link }} alt="image">
+		<img src={{ img_link }} alt="{{ content_title }}">
 	</div>
 
 	<div class="search__infoContainer">

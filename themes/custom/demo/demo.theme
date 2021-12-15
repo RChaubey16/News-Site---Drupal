@@ -30,8 +30,43 @@ function demo_form_search_block_form_alter(&$form, &$form_state)
 // 
 function demo_preprocess_search_result(&$variables)
 {
-    
+
     $node = $variables['result']['node'];
     $variables['img_link'] = file_create_url($node->field_image->entity->getFileUri());
-    // kint($variables);
+
+    $variables['content_title'] = $variables['title'];
+
+    $variables["old_date"] = $variables['info']['#context']['info']['date'];
+    $org_full_date = explode('-', $variables['old_date']);
+    $date1 = $org_full_date[0];
+    $variables['time'] = $org_full_date[1];
+
+    $new_date = date("M,d Y, ", strtotime($date1));
+
+    $final_date = $new_date . $variables['time'];
+
+
+    $variables['info']['#context']['info']['date'] = $final_date;
+
+    // comment
+    $comment = $variables['info']['#context']['info']['comment'];
+    $ref = new ReflectionClass($comment);
+    $prop = $ref->getProperty("string");
+    $prop->setAccessible(true);
+    $comment1 = $prop->setValue($prop, null);
+    $variables['comment_var'] = $comment1;
+
+    kint($variables);
+}
+
+function demo_preprocess_item_list(&$variables) {
+
+    $total = null;
+  // get the total number of results from the $GLOBALS
+  if(isset($GLOBALS['pager_total_items'])){
+    $total = $GLOBALS['pager_total_items'][0];
+  }
+
+  $variables['count_items'] = $total;
+  
 }
