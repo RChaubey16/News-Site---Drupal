@@ -159,6 +159,7 @@
 
 .block-search .content form .form-item input {
   padding-left: 1rem;
+  margin-top: 0.7rem;
   border: 1px solid #ececec;
   -webkit-box-shadow: none;
           box-shadow: none;

@@ -24,10 +24,17 @@ function demo_preprocess_fontawesomeicon(&$variables)
 
 function demo_form_search_block_form_alter(&$form, &$form_state)
 {
-    // Kint($form);
     $form['keys']['#attributes']['placeholder'][] = t('Search...');
 }
-// 
+
+function demo_preprocess_input__search(&$variables){
+    // kint($variables);
+    $variables['attributes']['placeholder']= t('Search Here..');
+    $variables['attributes']['autocomplete']= "off";
+    // $variables['abc'] = "Hy";
+}
+
+// search result
 function demo_preprocess_search_result(&$variables)
 {
 
@@ -57,6 +64,6 @@ function demo_preprocess_search_result(&$variables)
     $variables['comment_var'] = $comment1;
 
 
-    kint($variables);
+    // kint($variables);
 }
 
