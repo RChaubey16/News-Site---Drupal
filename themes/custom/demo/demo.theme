@@ -56,17 +56,7 @@ function demo_preprocess_search_result(&$variables)
     $comment1 = $prop->setValue($prop, null);
     $variables['comment_var'] = $comment1;
 
+
     kint($variables);
 }
 
-function demo_preprocess_item_list(&$variables) {
-
-    $total = null;
-  // get the total number of results from the $GLOBALS
-  if(isset($GLOBALS['pager_total_items'])){
-    $total = $GLOBALS['pager_total_items'][0];
-  }
-
-  $variables['count_items'] = $total;
-  
-}

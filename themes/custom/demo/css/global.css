@@ -109,6 +109,35 @@
   color: black;
 }
 
+.search-form {
+  padding: 1rem 2rem;
+}
+
+.search-form input {
+  height: 2.2rem;
+  width: 92%;
+  font-weight: 900;
+  font-size: 1.3rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #a5a5a5;
+}
+
+.search-form .form-wrapper {
+  padding: 1rem 0;
+}
+
+.search-form .form-wrapper .search-form__submit {
+  width: 5vw;
+  margin-top: 0.7rem;
+  margin-left: -1rem;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #a5a5a5;
+  border-left: 1px solid #a5a5a5;
+  background-color: transparent;
+}
+
 .region-search-box {
   display: -webkit-box;
   display: -ms-flexbox;

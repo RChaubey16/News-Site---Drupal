@@ -12,7 +12,8 @@
  * @see template_preprocess_form_element_label()
  */
 #}
-{%
+
+{# {%
   set classes = [
     title_display == 'after' ? 'option',
     title_display == 'invisible' ? 'visually-hidden',
@@ -22,4 +23,4 @@
 %}
 {% if title is not empty or required -%}
   <label{{ attributes.addClass(classes) }}>{{ title }}</label>
-{%- endif %}
+{%- endif %} #}
