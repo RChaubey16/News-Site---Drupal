@@ -67,3 +67,9 @@ function demo_preprocess_search_result(&$variables)
     // kint($variables);
 }
 
+
+
+function demo_preprocess_item_list__search_results(&$variables){
+    $variables['res_count'] = $variables['items'];
+    // kint($variables);
+}

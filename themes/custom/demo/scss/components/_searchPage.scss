@@ -1,5 +1,25 @@
+.item-list {
+  // border: 2px solid yellow;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.results__count {
+  border-bottom: 1px solid $border;
+  h1 {
+    // padding-top: 0.85rem;
+    width: 7vw;
+    border-bottom: 3px solid $primary;
+    span {
+      margin-left: 1.1rem;
+      font-weight: 900;
+    }
+  }
+}
+
 .search-card__container {
   display: flex;
+  margin-top: 1rem;
 
   .search__imageContainer {
     height: 100%;
@@ -44,7 +64,7 @@
 
 .search-form {
   padding: 1rem 2rem;
-//   border: 2px solid red;
+  //   border: 2px solid red;
   input {
     height: 2.2rem;
     width: 92%;
@@ -56,17 +76,16 @@
   }
 
   .form-wrapper {
-      padding: 1rem 0;
+    padding: 1rem 0;
     .search-form__submit {
-        width: 5vw;
-        margin-top: 0.7rem;
-        margin-left: -1rem;
-        border: none;
-        border-radius:0;
-        border-bottom: 1px solid $border;
-        border-left: 1px solid $border;
+      width: 5vw;
+      margin-top: 0.7rem;
+      margin-left: -1rem;
+      border: none;
+      border-radius: 0;
+      border-bottom: 1px solid $border;
+      border-left: 1px solid $border;
       background-color: transparent;
-
     }
   }
 }

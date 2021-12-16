@@ -61,10 +61,34 @@
   color: #e33b26;
 }
 
+.item-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.results__count {
+  border-bottom: 1px solid #a5a5a5;
+}
+
+.results__count h1 {
+  width: 7vw;
+  border-bottom: 3px solid #e33b26;
+}
+
+.results__count h1 span {
+  margin-left: 1.1rem;
+  font-weight: 900;
+}
+
 .search-card__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 1rem;
 }
 
 .search-card__container .search__imageContainer {
