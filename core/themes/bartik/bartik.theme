@@ -145,6 +145,15 @@ function bartik_form_alter(&$form, FormStateInterface $form_state, $form_id)
       $form['#attributes']['class'][] = 'media-library-views-form';
     }
   }
+
+  // $link = $form['help_link']['#title'];
+
+  // $reflection = new \ReflectionClass($link);
+  // $property = $reflection->getProperty('string');
+  // $property->setAccessible(true);
+  // $property->setValue($link, 'new-value');
+
+  // kint($form);
 }
 
 /**

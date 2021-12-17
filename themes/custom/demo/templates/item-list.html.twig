@@ -26,20 +26,26 @@
 {% if items or empty -%}
 	<div class="results__count">
 
-		<h1> <span>All</span> ({{ res_count|length }})</h1>
+		<h1>
+			<span>All</span>
+			({{ res_count|length }})</h1>
 	</div>
-	<div{{wrapper_attributes.addClass('item-list')}}>
-		{%- if title is not empty -%}
-			<h3>{{ title }}</h3>
-		{%- endif -%}
-		{%- if items -%}
-			<{{list_type}}{{attributes}}>
-				{%- for item in items -%}
-					<li{{item.attributes}}>{{ item.value }}</li>
-				{%- endfor -%}
-			</{{list_type}}>
-		{%- else -%}
-			{{- empty -}}
-		{%- endif -%}
+
+	<div class="itemList__wrapper">
+		<div{{wrapper_attributes.addClass('item-list')}}>
+			{%- if title is not empty -%}
+				<h3>{{ title }}</h3>
+			{%- endif -%}
+			{%- if items -%}
+				<{{list_type}}{{attributes}}>
+					{%- for item in items -%}
+						<li{{item.attributes}}>{{ item.value }}</li>
+					{%- endfor -%}
+				</{{list_type}}>
+			{%- else -%}
+				{{- empty -}}
+			{%- endif -%}
+		</div>
 	</div>
+
 {%- endif %}

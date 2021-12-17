@@ -61,13 +61,25 @@
   color: #e33b26;
 }
 
-.item-list {
+.itemList__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  border: 1px solid red;
+}
+
+.item-list {
+  border: 2px solid blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 75%;
 }
 
 .results__count {
