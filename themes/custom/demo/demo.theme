@@ -11,9 +11,9 @@ function demo_preprocess_page(&$variables)
 
 function demo_preprocess_input__submit(&$variables)
 {
-    // Kint($variables);
     $variables['attributes']['placeholder'] = "SEARCH";
     $variables['attributes']['value'] = $variables['element']['#value'];
+    // Kint($variables);
 }
 
 function demo_preprocess_fontawesomeicon(&$variables)
@@ -22,17 +22,15 @@ function demo_preprocess_fontawesomeicon(&$variables)
     $variables['id'] = "search_icon";
 }
 
-function demo_form_search_block_form_alter(&$form, &$form_state)
+
+
+function demo_preprocess_input__search(&$variables)
 {
-    $form['keys']['#attributes']['placeholder'][] = t('Search...');
+    $variables['attributes']['placeholder'] = t('Search Here..');
+    $variables['attributes']['autocomplete'] = "off";
+    // kint($variables);
 }
 
-function demo_preprocess_input__search(&$variables){
-    // kint($variables);
-    $variables['attributes']['placeholder']= t('Search Here..');
-    $variables['attributes']['autocomplete']= "off";
-    // $variables['abc'] = "Hy";
-}
 
 // search result
 function demo_preprocess_search_result(&$variables)
@@ -50,7 +48,7 @@ function demo_preprocess_search_result(&$variables)
 
     $new_date = date("M,d Y, ", strtotime($date1));
 
-    $final_date = $new_date . $variables['time'];
+    $final_date = "PTI / " . $new_date . $variables['time'] . " IST ";
 
 
     $variables['info']['#context']['info']['date'] = $final_date;
@@ -69,7 +67,9 @@ function demo_preprocess_search_result(&$variables)
 
 
 
-function demo_preprocess_item_list__search_results(&$variables){
+function demo_preprocess_item_list__search_results(&$variables)
+{
     $variables['res_count'] = $variables['items'];
     // kint($variables);
 }
+

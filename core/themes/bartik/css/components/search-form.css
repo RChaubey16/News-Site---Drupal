@@ -27,13 +27,15 @@
   cursor: pointer;
   text-indent: -9999px;
   direction: ltr;
+  /* color: white; */
   background: #f0f0f0 url(../../../../misc/icons/505050/loupe.svg) no-repeat center;
+  text-transform: uppercase;
 }
 .button.search-form__submit:hover,
 .search-form__submit:hover,
 .button.search-form__submit:focus,
 .search-form__submit:focus {
-  background: #dedede url(../../../../misc/icons/424242/loupe.svg) no-repeat center;
+  background: #dedede;
 }
 .search-form .form-item-keys label {
   display: block;
