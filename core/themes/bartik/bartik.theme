@@ -146,12 +146,8 @@ function bartik_form_alter(&$form, FormStateInterface $form_state, $form_id)
     }
   }
 
-  // $link = $form['help_link']['#title'];
-
-  // $reflection = new \ReflectionClass($link);
-  // $property = $reflection->getProperty('string');
-  // $property->setAccessible(true);
-  // $property->setValue($link, 'new-value');
+  $form['help_link']['#title'] = "";
+  unset($form['help_link']);
 
   // kint($form);
 }
@@ -215,14 +211,9 @@ function bartik_preprocess_links(&$variables)
   }
 }
 
-// function bartik_preprocess_item_list__search_results(&$variables)
+// function bartik_preprocess_region(&$variables)
 // {
 
-//   $total = null;
-//   if (isset($GLOBALS['pager_total_items'])) {
-//     $total = $GLOBALS['pager_total_items'][0];
-//   }
-//   $variables['count_items'] = $total;
 //   kint($variables);
 
 // }

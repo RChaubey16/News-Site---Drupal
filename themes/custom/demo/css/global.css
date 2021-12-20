@@ -693,8 +693,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #a5a5a5;
+  border-bottom: 2px solid black;
 }
 
 .navlinks__box ul li {
