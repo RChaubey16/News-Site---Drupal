@@ -1,24 +1,43 @@
 .itemList__wrapper{
   display: flex;
   justify-content: flex-end;
-  border: 1px solid red;
+  // border: 1px solid red;
 }
 
 .item-list {
-  border: 2px solid blue;
+  // border: 2px solid blue;
   display: flex;
   justify-content: flex-end;
-  width: 75%;
+  width: 85%;
 }
 
 .results__count {
+  
+  width: 70%;
+
+  // border: 1px solid green;
   border-bottom: 1px solid $border;
   h1 {
+    // border: 1px solid blue;
     width: 7vw;
     border-bottom: 3px solid $primary;
     span {
       margin-left: 1.1rem;
       font-weight: 900;
+    }
+  }
+}
+
+.search__filterBox{
+  width: 15%;
+  // border: 1px solid blue;
+  .filter__heading{
+    padding: 0 10px;
+    text-transform: uppercase;
+    border-bottom: 1px dotted $border;
+    h2{
+      font-weight: 900;
+      color: $black;
     }
   }
 }

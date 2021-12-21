@@ -68,21 +68,20 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  border: 1px solid red;
 }
 
 .item-list {
-  border: 2px solid blue;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  width: 75%;
+  width: 85%;
 }
 
 .results__count {
+  width: 70%;
   border-bottom: 1px solid #a5a5a5;
 }
 
@@ -94,6 +93,21 @@
 .results__count h1 span {
   margin-left: 1.1rem;
   font-weight: 900;
+}
+
+.search__filterBox {
+  width: 15%;
+}
+
+.search__filterBox .filter__heading {
+  padding: 0 10px;
+  text-transform: uppercase;
+  border-bottom: 1px dotted #a5a5a5;
+}
+
+.search__filterBox .filter__heading h2 {
+  font-weight: 900;
+  color: black;
 }
 
 .search-card__container {
