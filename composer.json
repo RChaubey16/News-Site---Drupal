@@ -29,6 +29,8 @@
         "drupal/interval": "^1.9",
         "drupal/pathauto": "^1.8",
         "drupal/search_api_page": "@dev",
+        "drupal/slick": "^2.4",
+        "drupal/slick_views": "^2.5",
         "drupal/views_slideshow": "^4.8",
         "drupal/webform": "^6.1"
     },
