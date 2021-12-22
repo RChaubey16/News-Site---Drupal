@@ -283,6 +283,46 @@
   font-weight: 500;
 }
 
+.block-views-blocktaxonomy-tags-carousel-block-1 h2 {
+  color: gray !important;
+}
+
+.block-views-blocktaxonomy-tags-carousel-block-1 .content .view-id-taxonomy_tags_carousel .view-content .slick--view--taxonomy-tags-carousel .slick-list .slick-track .slick__slide .vocabulary-tags h2 a div {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: grey;
+  padding: 0 12px;
+}
+
+.slick__arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  z-index: 2;
+}
+
+.slick__arrow .slick-prev,
+.slick__arrow .slick-next {
+  height: 1.7rem;
+  margin-left: 10px;
+  border: none;
+  border: 1px solid grey;
+  border-radius: 50%;
+  cursor: pointer;
+  color: grey;
+  font-size: 1.3rem;
+  font-weight: 800;
+  background: transparent;
+}
+
+.slick__arrow .slick-prev:hover,
+.slick__arrow .slick-next:hover {
+  color: #e33b26;
+}
+
 .block-views-blockspotlight-block-1 {
   margin: 2rem;
   border-top: 2px dotted black;

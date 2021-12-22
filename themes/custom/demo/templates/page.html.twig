@@ -46,44 +46,44 @@
 			<div class="main__content"></div>
 
 			{# <div class="layout__homeBox1">
-				<div class="layout-content__highlight">
-					{{ page.content_highlight }}
-				</div>
-
-				<div class="layout-content__columnWrapper">
-					<div class="layout-content__column1">
-						{{ page.content_column_1 }}
-					</div>
-					<div class="layout-content__column2">
-						{{ page.content_column_2 }}
-					</div>
-				</div>
-			</div> #}
+							<div class="layout-content__highlight">
+								{{ page.content_highlight }}
+							</div>
+			
+							<div class="layout-content__columnWrapper">
+								<div class="layout-content__column1">
+									{{ page.content_column_1 }}
+								</div>
+								<div class="layout-content__column2">
+									{{ page.content_column_2 }}
+								</div>
+							</div>
+						</div> #}
 			{# {{ page.content_bottom }} #}
 		</div>
 
-{# 
-		<div class="layout__homeBox2">
-			{% if page.vertical_column %}
-				<div class="layout__vertical-column">
-					{{ page.vertical_column }}
-				</div>
-			{% endif %}
-		</div> #}
+		{# 
+				<div class="layout__homeBox2">
+					{% if page.vertical_column %}
+						<div class="layout__vertical-column">
+							{{ page.vertical_column }}
+						</div>
+					{% endif %}
+				</div> #}
 
-		{# /.layout-content #}
+	{# /.layout-content #}
 
 		{# <div class="layout__sidebar-second">
-			{% if page.sidebar_second %}
-				<aside class="layout-sidebar-second" role="complementary">
-					{{ page.sidebar_second }}
-				</aside>
-			{% else %}
-				<aside class="layout-sidebar-second" role="complementary" style="flex: 0;">
-					{{ page.sidebar_second }}
-				</aside>
-			{% endif %}
-		</div> #}
+					{% if page.sidebar_second %}
+						<aside class="layout-sidebar-second" role="complementary">
+							{{ page.sidebar_second }}
+						</aside>
+					{% else %}
+						<aside class="layout-sidebar-second" role="complementary" style="flex: 0;">
+							{{ page.sidebar_second }}
+						</aside>
+					{% endif %}
+				</div> #}
 	</main>
 
 	<div class="layout__banner-bottom">
@@ -145,6 +145,14 @@
 	<div class="featured__container">
 		{% if page.featured_news %}
 			{{ page.featured_news }}
+		{% endif %}
+	</div>
+</div>
+
+<div class="visual__stories">
+	<div class="visual__storiesContainer">
+		{% if page.visual_stories %}
+			{{ page.visual_stories }}
 		{% endif %}
 	</div>
 </div>

@@ -33,6 +33,7 @@ regions:
   topic_news_sidebar: "Topic News Sidebar" 
 
   featured_news: "Featured News"
+  visual_stories: "Visual Stories"
   grid_news: "Grid News"
 
   footer_1: 'footer_1'
