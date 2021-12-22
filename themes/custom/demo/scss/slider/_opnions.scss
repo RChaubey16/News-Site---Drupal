@@ -1,0 +1,35 @@
+.block-views-blockopinions-block-1 {
+  margin: 2rem 0;
+  .content .view-display-id-block_1 .view-content {
+    .slick--view--opinions .slick__slider .draggable {
+      .slick-track {
+          margin-bottom: 1rem;
+        .slick__slide {
+          height: 32vh;
+          padding: 1rem;
+          margin-right: 1rem;
+          border: 1px solid lightgray;
+          border-radius: 3px;
+          
+
+          .views-field-title span a {
+            font-size: 1.2rem;
+            font-weight: 900;
+            transition: all 0.25s;
+            
+            &:hover {
+              color: $border;
+            }
+          }
+
+          .views-field-uid {
+            padding-top: 1.3rem;
+            span a{
+                color: $grey;
+            }
+          }
+        }
+      }
+    }
+  }
+}

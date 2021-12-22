@@ -283,6 +283,41 @@
   font-weight: 500;
 }
 
+.block-views-blockopinions-block-1 {
+  margin: 2rem 0;
+}
+
+.block-views-blockopinions-block-1 .content .view-display-id-block_1 .view-content .slick--view--opinions .slick__slider .draggable .slick-track {
+  margin-bottom: 1rem;
+}
+
+.block-views-blockopinions-block-1 .content .view-display-id-block_1 .view-content .slick--view--opinions .slick__slider .draggable .slick-track .slick__slide {
+  height: 32vh;
+  padding: 1rem;
+  margin-right: 1rem;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+
+.block-views-blockopinions-block-1 .content .view-display-id-block_1 .view-content .slick--view--opinions .slick__slider .draggable .slick-track .slick__slide .views-field-title span a {
+  font-size: 1.2rem;
+  font-weight: 900;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.block-views-blockopinions-block-1 .content .view-display-id-block_1 .view-content .slick--view--opinions .slick__slider .draggable .slick-track .slick__slide .views-field-title span a:hover {
+  color: #a5a5a5;
+}
+
+.block-views-blockopinions-block-1 .content .view-display-id-block_1 .view-content .slick--view--opinions .slick__slider .draggable .slick-track .slick__slide .views-field-uid {
+  padding-top: 1.3rem;
+}
+
+.block-views-blockopinions-block-1 .content .view-display-id-block_1 .view-content .slick--view--opinions .slick__slider .draggable .slick-track .slick__slide .views-field-uid span a {
+  color: grey;
+}
+
 .block-views-blocktaxonomy-tags-carousel-block-1 h2 {
   color: gray !important;
 }
