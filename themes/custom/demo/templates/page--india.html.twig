@@ -141,10 +141,18 @@
 	</div>
 </div>
 
-<div class="featured__containerWrapper">
+{# <div class="featured__containerWrapper">
 	<div class="featured__container">
 		{% if page.featured_news %}
 			{{ page.featured_news }}
+		{% endif %}
+	</div>
+</div> #}
+
+<div class="visual__stories">
+	<div class="visual__storiesContainer">
+		{% if page.visual_stories %}
+			{{ page.visual_stories }}
 		{% endif %}
 	</div>
 </div>
