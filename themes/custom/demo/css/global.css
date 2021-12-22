@@ -473,18 +473,22 @@
   padding: 2rem 0 0rem 2rem;
 }
 
-.common_header .featured-news-view .views-view-grid .views-field-field-image a img {
+.block-views-blockfeatured-news-view-block-1 .featured-news-view .views-view-grid .views-field-field-image {
+  height: 360px;
+}
+
+.block-views-blockfeatured-news-view-block-1 .featured-news-view .views-view-grid .views-field-field-image a img {
   -webkit-transition: all 0.35s linear;
   transition: all 0.35s linear;
   border-radius: 10px;
 }
 
-.common_header .featured-news-view .views-view-grid .views-field-field-image a img:hover {
+.block-views-blockfeatured-news-view-block-1 .featured-news-view .views-view-grid .views-field-field-image a img:hover {
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
 }
 
-.common_header .featured-news-view .views-view-grid .views-field-title {
+.block-views-blockfeatured-news-view-block-1 .featured-news-view .views-view-grid .views-field-title {
   position: relative;
   top: -125px;
   max-width: 230px;
@@ -501,7 +505,7 @@
   background-image: linear-gradient(to top, black 30%, transparent);
 }
 
-.common_header .featured-news-view .views-view-grid .views-field-title .field-content a {
+.block-views-blockfeatured-news-view-block-1 .featured-news-view .views-view-grid .views-field-title .field-content a {
   color: white;
   font-size: 1.2rem;
 }
@@ -822,6 +826,12 @@ body {
   padding: 7px 10px;
   border-radius: 8px;
   border-bottom: 2px dotted #9b9999;
+}
+
+.block-views h2 {
+  text-transform: uppercase;
+  color: black;
+  font-weight: 900;
 }
 
 @media only screen and (max-width: 428px) {
