@@ -1,0 +1,30 @@
+.block-views-blockslick-view-block-1{
+    padding: 1rem 2.5rem;
+    margin-bottom: 2rem;
+    background-color: #fff5f6;
+    h2{
+        color: $primary !important;
+    }
+    .content .view-id-slick_view .view-content{
+        .slick .slick__slider{
+            .draggable .slick-track{
+                .slick__slide{
+                    margin: 0 1rem;
+                    .views-field-field-image{
+                        margin-bottom: 0.5rem;
+                        .field-content a img{
+                            border-radius: 10px;
+                        }
+                    }
+                    .views-field-title{
+                        width: 85%;
+                        span a {
+                            font-size: 0.9rem;
+                            font-weight:600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

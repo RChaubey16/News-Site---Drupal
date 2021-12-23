@@ -293,6 +293,7 @@
 
 .block-views-blockopinions-block-1 .content .view-display-id-block_1 .view-content .slick--view--opinions .slick__slider .draggable .slick-track .slick__slide {
   height: 32vh;
+  max-height: 300px;
   padding: 1rem;
   margin-right: 1rem;
   border: 1px solid lightgray;
@@ -316,6 +317,37 @@
 
 .block-views-blockopinions-block-1 .content .view-display-id-block_1 .view-content .slick--view--opinions .slick__slider .draggable .slick-track .slick__slide .views-field-uid span a {
   color: grey;
+}
+
+.block-views-blockslick-view-block-1 {
+  padding: 1rem 2.5rem;
+  margin-bottom: 2rem;
+  background-color: #fff5f6;
+}
+
+.block-views-blockslick-view-block-1 h2 {
+  color: #e33b26 !important;
+}
+
+.block-views-blockslick-view-block-1 .content .view-id-slick_view .view-content .slick .slick__slider .draggable .slick-track .slick__slide {
+  margin: 0 1rem;
+}
+
+.block-views-blockslick-view-block-1 .content .view-id-slick_view .view-content .slick .slick__slider .draggable .slick-track .slick__slide .views-field-field-image {
+  margin-bottom: 0.5rem;
+}
+
+.block-views-blockslick-view-block-1 .content .view-id-slick_view .view-content .slick .slick__slider .draggable .slick-track .slick__slide .views-field-field-image .field-content a img {
+  border-radius: 10px;
+}
+
+.block-views-blockslick-view-block-1 .content .view-id-slick_view .view-content .slick .slick__slider .draggable .slick-track .slick__slide .views-field-title {
+  width: 85%;
+}
+
+.block-views-blockslick-view-block-1 .content .view-id-slick_view .view-content .slick .slick__slider .draggable .slick-track .slick__slide .views-field-title span a {
+  font-size: 0.9rem;
+  font-weight: 600;
 }
 
 .block-views-blocktaxonomy-tags-carousel-block-1 h2 {
