@@ -1,0 +1,105 @@
+.block-views-blockentertainment-view-block-1 {
+  //   border: 2px solid red;
+  margin-right: 1rem;
+  .content .view-entertainment-view {
+    .attachment .views-element-container .view-display-id-attachment_1 {
+      .view-content .horizontal .views-row {
+        margin: 0;
+        .views-col {
+          width: 100% !important;
+          padding: 0;
+          .views-field-field-image {
+            width: 100%;
+            a img {
+              border-radius: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .view-content .views-view-grid {
+    .views-row {
+      margin: 0;
+      border: none !important;
+      .views-col {
+        padding: 0 8px;
+        .views-field-field-image {
+          height: 100%;
+          //   border: 2px solid red;
+          .field-content {
+            a img {
+              object-fit: contain;
+              border-radius: 5px;
+            }
+          }
+        }
+
+        .views-field-title {
+          span a {
+            font-size: 0.9rem;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Trending Headlines
+.block-views-blocktrending-headlines-block-1 {
+    h2{
+        text-align: center;
+    }
+
+  .content .view-id-trending_headlines {
+    display: flex;
+    .view-content {
+      flex: 0.5;
+      padding-left: 1rem;
+      .item-list ul {
+        width: 100%;
+        padding: 1rem;
+        li {
+          width: 120%;
+          padding: 10px 0;
+          list-style: circle;
+          border-bottom: 1px dotted $border;
+          .views-field-title span a {
+            font-weight: 500;
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+
+    .attachment {
+      flex: 0.5;
+      .views-element-container {
+        .view-display-id-attachment_1 {
+          display: block;
+
+          .view-content .horizontal .views-row {
+              border: none !important;
+            .views-col {
+              padding: 0 8px;
+              .views-field-field-image {
+                a img {
+                  border-radius: 5px;
+                }
+              }
+
+              .views-field-title {
+                span a {
+                  font-size: 0.75rem;
+                  font-weight: 500;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

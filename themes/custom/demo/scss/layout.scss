@@ -137,14 +137,12 @@
   max-width: 1290px;
   border-bottom: 2px dotted $border;
   .topic__image {
-    flex: 0.3;
+    flex: 0.35;
   }
   .topic__newsList {
-    flex: 0.3;
+    flex: 0.7;
   }
-  .topic__newsSidebar {
-    flex: 0.3;
-  }
+
 }
 
 // Featured news section
@@ -170,6 +168,23 @@
 .grid-news__container {
   max-width: 1290px;
 }
+
+// commonBox Section
+
+.commonBox__container{
+  display: flex;
+  margin-bottom: 1rem;
+
+  .commonBox1__container{
+    flex: 0.7;
+  }
+
+  .commonBox2__container{
+    flex: 0.3;
+  }
+}
+
+
 
 /* Footer */
 

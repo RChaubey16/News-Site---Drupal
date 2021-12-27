@@ -32,6 +32,9 @@ regions:
   topic_news_list: 'Topic News list'
   topic_news_sidebar: "Topic News Sidebar" 
 
+  common_box_1: Common Box 1
+  common_box_2: Common Box 2
+
   featured_news: "Featured News"
   visual_stories: "Visual Stories"
   grid_news: "Grid News"
