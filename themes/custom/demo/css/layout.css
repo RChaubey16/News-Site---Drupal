@@ -331,6 +331,12 @@
   .grid-news__container {
     width: 100%;
   }
+  .commonBox__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .footer-menu-box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

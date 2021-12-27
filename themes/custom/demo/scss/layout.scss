@@ -177,6 +177,7 @@
 
   .commonBox1__container{
     flex: 0.7;
+    
   }
 
   .commonBox2__container{
@@ -253,6 +254,11 @@
 
   .grid-news__container {
     width: 100%;
+  }
+
+
+  .commonBox__container{
+    flex-direction: column;
   }
 
   .footer-menu-box {
