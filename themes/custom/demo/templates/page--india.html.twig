@@ -141,6 +141,19 @@
 	</div>
 </div>
 
+<div class = "commonBox__container">
+	<div class="commonBox1__container">
+		{% if page.common_box_1 %}
+			{{ page.common_box_1 }}
+		{% endif %}
+	</div>
+	<div class="commonBox2__container">
+		{% if page.common_box_2 %}
+			{{ page.common_box_2 }}
+		{% endif %}
+	</div>
+</div>
+
 {# <div class="featured__containerWrapper">
 	<div class="featured__container">
 		{% if page.featured_news %}

@@ -173,14 +173,19 @@
 
 .commonBox__container{
   display: flex;
-  margin-bottom: 1rem;
+  align-items: flex-start;
+  padding: 2rem 0;
+
+  border-bottom: 2px dotted $border;
 
   .commonBox1__container{
+
     flex: 0.7;
     
   }
 
   .commonBox2__container{
+    padding-bottom: 3rem;
     flex: 0.3;
   }
 }

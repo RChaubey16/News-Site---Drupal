@@ -1,0 +1,4 @@
+access ice cream info:
+  title: "Access IceCream Info"
+  description: "IceCream Information"
+  restrict access: TRUE

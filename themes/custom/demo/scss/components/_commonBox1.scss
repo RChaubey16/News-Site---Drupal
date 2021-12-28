@@ -1,9 +1,10 @@
-.block-views-blockcommon-box-1-view-block-1 {
-  //   border: 1px solid red;
+.block-views-blockcommon-box-1-view-block-1, .block-views-blockcommon-box-1-view-auto-duplicate--block-1 {
+    // border: 1px solid red;
+    margin-top: 3rem;
   .view-display-id-block_1 {
     display: flex;
     .attachment-before {
-      width: 55%;
+      width: 65%;
 
       .views-element-container .view-display-id-attachment_1 {
         .view-content .views-view-grid .views-row {
@@ -44,7 +45,8 @@
   }
 }
 
-.block-views-blockcommon-box-2-view-block-1 {
+.block-views-blockcommon-box-2-view-block-1, .block-views-blockcommon-box-2-view-duplicate--block-1 {
+  margin-top:3rem;
   .content .view-display-id-block_1 .view-content {
     table {
       tbody tr {
