@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAEA,AAAA,uBAAuB,CAAA;EACnB,OAAO,EAAE,IAAI;EACb,cAAc,EAAC,MAAM;EAErB,KAAK,EAAE,IAAI;CAgBd;;AApBD,AAWI,uBAXmB,CAWnB,2BAA2B,CAAA;EACvB,OAAO,EAAE,MAAM;CAClB;;AAbL,AAeI,uBAfmB,CAenB,wBAAwB,CAAA;EACpB,OAAO,EAAE,IAAI;CAGhB;;AAGL,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,MAAM;EACrC,AAAA,uBAAuB,CAAA;IACnB,cAAc,EAAE,GAAG;GActB;EAfD,AAGI,uBAHmB,CAGnB,wBAAwB,CAAA;IACpB,IAAI,EAAE,GAAG;GACZ;EALL,AAOI,uBAPmB,CAOnB,2BAA2B,CAAA;IACvB,IAAI,EAAE,GAAG;GACZ;EATL,AAYI,uBAZmB,CAYnB,wBAAwB,CAAA;IACpB,IAAI,EAAE,GAAG;GACZ",
     "sources": [
-        "../scss/layout/articleLayout.scss"
+        "../scss/layout/articleLayout.scss",
+        "../scss/abstracts/_colors.scss"
     ],
     "names": [],
     "file": "articleLayout.css"

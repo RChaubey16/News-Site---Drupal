@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'ba12eaa9f146dc3f2ee4d2760b132361d7fa786f',
+        'reference' => '0806c0bbb7be68ba54a9a5ab9ec3addee212c615',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -769,7 +769,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'ba12eaa9f146dc3f2ee4d2760b132361d7fa786f',
+            'reference' => '0806c0bbb7be68ba54a9a5ab9ec3addee212c615',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1008,6 +1008,15 @@
             'replaced' => array(
                 0 => '9.3.0',
             ),
+        ),
+        'drupal/tb_megamenu' => array(
+            'pretty_version' => '1.6.0',
+            'version' => '1.6.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/tb_megamenu',
+            'aliases' => array(),
+            'reference' => '8.x-1.6',
+            'dev_requirement' => false,
         ),
         'drupal/telephone' => array(
             'dev_requirement' => false,

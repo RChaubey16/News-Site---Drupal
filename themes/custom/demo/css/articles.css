@@ -1,0 +1,164 @@
+.region-article-sidebar-1 .block-views-blockspotlight-block-2 .content .view-id-spotlight .view-content .horizontal .views-row .views-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.region-article-sidebar-1 .block-views-blockspotlight-block-2 .content .view-id-spotlight .view-content .horizontal .views-row .views-col .views-field-field-image {
+  width: 60%;
+}
+
+.region-article-sidebar-1 .block-views-blockspotlight-block-2 .content .view-id-spotlight .view-content .horizontal .views-row .views-col .views-field-field-image img {
+  width: 100%;
+}
+
+.node--type-article .node__content .field--type-image img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.node--type-article .node__content .field--type-text-with-summary p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #1a1a1a;
+}
+
+.block-block-content .content .field__item p .fontawesome-icon-inline {
+  padding: 0.5rem 1rem;
+}
+
+.block-block-content .content .field__item p .fontawesome-icon-inline .fa-facebook-f {
+  font-size: 1rem;
+  color: #5e76a8;
+}
+
+.block-block-content .content .field__item p .fontawesome-icon-inline .fa-twitter {
+  color: #1c9bf0;
+}
+
+.block-block-content .content .field__item p .fontawesome-icon-inline .fa-linkedin-in {
+  color: #0a66c2;
+}
+
+.block-block-content .content .field__item p .fontawesome-icon-inline .fa-envelope {
+  color: #ef6d2a;
+}
+
+.block-block-content .content .field__item p .fontawesome-icon-inline .fa-crown {
+  color: #fbac2e;
+}
+
+.block-views-blockarticles-block-1 .content .view-display-id-block_1 .view-content .views-view-table tbody tr {
+  background: none !important;
+}
+
+.block-views-blockarticles-block-1 .content .view-display-id-block_1 .view-content .views-view-table tbody tr .views-field-field-image a img {
+  border-radius: 5px;
+}
+
+.block-views-blockarticles-block-1 .content .view-display-id-block_1 .view-content .views-view-table tbody tr .views-field-title a {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #595959;
+}
+
+.block-views-blocktrending-topics-block-1 .content .view-id-trending_topics .view-content .item-list {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.block-views-blocktrending-topics-block-1 .content .view-id-trending_topics .view-content .item-list ul li .taxonomy-term h2 {
+  padding: 0.3rem;
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  font-weight: 400;
+  background-color: #b3d4fc;
+  opacity: 0.8;
+}
+
+.block-views-blocktrending-topics-block-1 .content .view-id-trending_topics .view-content .item-list ul li .taxonomy-term h2 a .field__item {
+  padding: 0;
+  text-align: center;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  color: black;
+}
+
+.block-views-blocktrending-topics-block-1 .content .view-id-trending_topics .view-content .item-list ul li .taxonomy-term h2 a .field__item:hover {
+  color: red;
+}
+
+@media only screen and (min-width: 1023px) {
+  .node--type-article .node__content .field--type-image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .node--type-article .node__content .field--type-image img {
+    width: 80%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+
+@media only screen and (min-width: 1310px) {
+  .region-article-sidebar-1 .block-views-blockspotlight-block-2
+.content
+.view-id-spotlight
+.view-content
+.horizontal
+.views-row {
+    border: none;
+  }
+  .region-article-sidebar-1 .block-views-blockspotlight-block-2
+.content
+.view-id-spotlight
+.view-content
+.horizontal
+.views-row .views-col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .region-article-sidebar-1 .block-views-blockspotlight-block-2
+.content
+.view-id-spotlight
+.view-content
+.horizontal
+.views-row .views-col .views-field-field-image {
+    width: 80%;
+  }
+  .region-article-sidebar-1 .block-views-blockspotlight-block-2
+.content
+.view-id-spotlight
+.view-content
+.horizontal
+.views-row .views-col .views-field-field-image img {
+    width: 100%;
+  }
+  .node--type-article .node__content .field--type-image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .node--type-article .node__content .field--type-image img {
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+/*# sourceMappingURL=articles.css.map */

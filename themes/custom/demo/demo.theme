@@ -75,3 +75,20 @@ function demo_preprocess_item_list__search_results(&$variables)
     // kint($variables);
 }
 
+function demo_preprocess_node(&$variables)
+{
+    $date = new DateTime(date("M-d-Y, H:i"));
+    $variables["Newdate"] = date_format($date, "D-M-Y, H:i");
+
+    $date = $variables['node']->getCreatedTime();
+    // Here you can use drupal's format_date() function, or some custom PHP date formatting.
+    $variables['news_date'] = \Drupal::service('date.formatter')->format($date, '$format');
+
+    $formatDate = $variables['news_date'];
+    $fullDate = explode('-', $formatDate);
+    $onlyDate = $fullDate[0];
+    $new_format_date = date("M d, Y", strtotime($onlyDate));
+    $variables['new_format_date'] = $new_format_date . $fullDate[1];
+
+    // kint($variables);
+}

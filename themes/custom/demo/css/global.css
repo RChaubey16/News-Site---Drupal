@@ -1183,4 +1183,14 @@ body {
     display: none;
   }
 }
+
+.block-tb-megamenu-menu-blockmain .content .tb-megamenu-main {
+  background-color: transparent;
+}
+
+.block-tb-megamenu-menu-blockmain .content .tb-megamenu-main .nav-collapse .tb-megamenu-nav .mega span, .block-tb-megamenu-menu-blockmain .content .tb-megamenu-main .nav-collapse .tb-megamenu-nav a {
+  border: none;
+  color: black;
+  font-weight: 400;
+}
 /*# sourceMappingURL=global.css.map */
