@@ -1,0 +1,6 @@
+home_path:
+  path: /icecream/home
+  defaults:
+    _controller: \Drupal\icecream\Controllers\IcecreamController::home
+  requirements:
+    _permission: 'access content'

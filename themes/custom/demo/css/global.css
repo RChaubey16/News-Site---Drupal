@@ -1,3 +1,33 @@
+.region-header-details-block-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.region-header-details-block-1 .weather {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 8px;
+}
+
+.region-header-details-block-1 .weather p a {
+  color: black;
+  font-weight: 200;
+}
+
+.region-header-details-block-1 .weather p span {
+  margin-left: 10px;
+  font-size: 0.9rem;
+  color: black;
+}
+
 /* Banner slideshow */
 .field-content a {
   border: none;
@@ -59,6 +89,70 @@
 
 .block-views-blockheader-block-2-sign-in-social-icons-block-1 .content .view-header-block-2-sign-in-social-icons .view-content .views-row .views-field .ham-menu-icon p span:hover {
   color: #e33b26;
+}
+
+.block-tb-megamenu-menu-blockmain .content .tb-megamenu-main {
+  background-color: transparent;
+}
+
+.block-tb-megamenu-menu-blockmain .content .tb-megamenu-main .nav-collapse .tb-megamenu-nav .mega span, .block-tb-megamenu-menu-blockmain .content .tb-megamenu-main .nav-collapse .tb-megamenu-nav a {
+  border: none;
+  color: black;
+  font-weight: 400;
+}
+
+.tb-megamenu .mega-nav li a,
+.tb-megamenu .dropdown-menu .mega-nav li a {
+  font-weight: 500 !important;
+  color: #595959 !important;
+}
+
+.tb-megamenu .mega > .mega-dropdown-menu {
+  margin-left: -10vw;
+}
+
+.block-views-blockmega-menu-art-block-1 .content .views-element-container .view-id-mega_menu_art .attachment-before .views-element-container .view-display-id-attachment_1 .view-content .views-view-grid .views-col .views-row .views-field-field-image .field-content a {
+  text-align: center;
+}
+
+.block-views-blockmega-menu-art-block-1 .content .views-element-container .view-id-mega_menu_art .attachment-before .views-element-container .view-display-id-attachment_1 .view-content .views-view-grid .views-col .views-row .views-field-title span a {
+  padding-top: -10vh;
+  padding: 5px;
+  font-weight: bold;
+  word-wrap: break-word;
+  border-bottom: 2px dotted #a5a5a5;
+}
+
+.block-views-blockmega-menu-art-block-1 .content .views-element-container .view-content .item-list ul li {
+  padding: 0.7rem 0 0.7rem 0.7rem;
+  border-bottom: 2px dotted #a5a5a5;
+}
+
+.block_mega_menu_sports .mega-dropdown-inner {
+  width: 100%;
+}
+
+.block_mega_menu_sports .mega-dropdown-inner .tb-megamenu-row .tb-megamenu-column .tb-megamenu-column-inner .mega-nav li a {
+  font-size: 12px;
+  border: none;
+  color: #595959;
+  font-weight: 200;
+}
+
+@media only screen and (max-width: 769px) {
+  .tb-megamenu .nav-collapse .nav > li {
+    width: 100vw;
+    margin-left: -40vw;
+  }
+  .tb-megamenu .nav-collapse .nav > li a {
+    text-align: center !important;
+  }
+  .tb-megamenu .nav-collapse .dropdown-menu {
+    background-color: lightgray;
+  }
+  .tb-megamenu .mega-nav, .tb-megamenu .dropdown-menu .mega-nav {
+    width: 80vw;
+  }
 }
 
 .itemList__wrapper {
@@ -1189,8 +1283,9 @@ body {
 }
 
 .block-tb-megamenu-menu-blockmain .content .tb-megamenu-main .nav-collapse .tb-megamenu-nav .mega span, .block-tb-megamenu-menu-blockmain .content .tb-megamenu-main .nav-collapse .tb-megamenu-nav a {
+  font-size: 12px;
   border: none;
-  color: black;
-  font-weight: 400;
+  color: #595959;
+  font-weight: 200;
 }
 /*# sourceMappingURL=global.css.map */
