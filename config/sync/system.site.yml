@@ -4,11 +4,11 @@ langcode: en
 uuid: ef128161-d3fc-468f-add4-725fbcf7953f
 name: 'The Times Of India'
 mail: toi@example.com
-slogan: ''
+slogan: asdfghjkl
 page:
   403: ''
   404: ''
-  front: /node
+  front: /india
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

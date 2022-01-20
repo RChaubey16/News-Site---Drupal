@@ -91,41 +91,18 @@
   color: #e33b26;
 }
 
-.block-tb-megamenu-menu-blockmain .content .tb-megamenu-main {
-  background-color: transparent;
+.block-tb-megamenu-menu-blockmain .tb-megamenu-nav .tb-megamenu-item a {
+  padding: 8px 18px !important;
+  color: black !important;
+  font-size: 0.85rem !important;
+  -webkit-transition: .25s ease-in-out !important;
+  transition: .25s ease-in-out !important;
+  background-color: white !important;
 }
 
-.block-tb-megamenu-menu-blockmain .content .tb-megamenu-main .nav-collapse .tb-megamenu-nav .mega span, .block-tb-megamenu-menu-blockmain .content .tb-megamenu-main .nav-collapse .tb-megamenu-nav a {
-  border: none;
-  color: black;
-  font-weight: 400;
-}
-
-.tb-megamenu .mega-nav li a,
-.tb-megamenu .dropdown-menu .mega-nav li a {
-  font-weight: 500 !important;
-  color: #595959 !important;
-}
-
-.tb-megamenu .mega > .mega-dropdown-menu {
-  margin-left: -10vw;
-}
-
-.block-views-blockmega-menu-art-block-1 .content .views-element-container .view-id-mega_menu_art .attachment-before .views-element-container .view-display-id-attachment_1 .view-content .views-view-grid .views-col .views-row .views-field-field-image .field-content a {
-  text-align: center;
-}
-
-.block-views-blockmega-menu-art-block-1 .content .views-element-container .view-id-mega_menu_art .attachment-before .views-element-container .view-display-id-attachment_1 .view-content .views-view-grid .views-col .views-row .views-field-title span a {
-  padding-top: -10vh;
-  padding: 5px;
-  font-weight: bold;
-  word-wrap: break-word;
-  border-bottom: 2px dotted #a5a5a5;
-}
-
-.block-views-blockmega-menu-art-block-1 .content .views-element-container .view-content .item-list ul li {
-  padding: 0.7rem 0 0.7rem 0.7rem;
-  border-bottom: 2px dotted #a5a5a5;
+.block-tb-megamenu-menu-blockmain .tb-megamenu-nav .tb-megamenu-item a:hover {
+  color: #e33b26 !important;
+  text-decoration: underline !important;
 }
 
 .block_mega_menu_sports .mega-dropdown-inner {

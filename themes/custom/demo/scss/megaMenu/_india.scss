@@ -1,69 +1,15 @@
 .block-tb-megamenu-menu-blockmain{
-    .content .tb-megamenu-main{
-        background-color: transparent;
-        .nav-collapse   .tb-megamenu-nav{
-            .mega span,a{
-                // padding: 10px 20px;
-                // margin: 0;
-                border: none;
-                color: black;
-                font-weight: 400;
-            }
-        }
-    }
-}
-.tb-megamenu .mega-nav,
-.tb-megamenu .dropdown-menu .mega-nav {
-  li {
-    a{
-        font-weight: 500 !important;
-        // font-size: 12px !important;
-        color: rgb(89, 89, 89) !important;
-        
-    }
-  }
-}
-
-
-.tb-megamenu .mega > .mega-dropdown-menu {
-    margin-left: -10vw;
-    // width: 1000px !important;
-}
-
-
-.block-views-blockmega-menu-art-block-1 .content .views-element-container{
-    .view-id-mega_menu_art .attachment-before{
-        .views-element-container .view-display-id-attachment_1{
-            .view-content .views-view-grid .views-col{
-                .views-row{
-                    .views-field-field-image{
-                        .field-content{
-                            a{
-                                text-align: center;
-                            }
-                        }
-                    }
-
-                    .views-field-title{
-                        span a{
-                            padding-top: -10vh;
-                            padding: 5px;
-                            // font-size: 0.75rem;
-                            font-weight: bold;
-                            word-wrap: break-word;
-                            border-bottom: 2px dotted $border;
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    .view-content .item-list{
-        ul {
-            li{
-                padding: 0.7rem 0 0.7rem 0.7rem;
-                border-bottom: 2px dotted $border;
+    .tb-megamenu-nav .tb-megamenu-item{
+        a {
+            padding: 8px 18px !important;
+            color: $black !important;
+            font-size: 0.85rem !important;
+            transition: .25s ease-in-out !important;
+            background-color: white !important;
+            
+            &:hover{
+                color: $primary !important;
+                text-decoration: underline !important;
             }
         }
     }

@@ -66,6 +66,11 @@
   color: #595959;
 }
 
+.block-views-blocktrending-topics-block-1 {
+  padding-bottom: 2rem;
+  border-bottom: 2px dotted grey;
+}
+
 .block-views-blocktrending-topics-block-1 .content .view-id-trending_topics .view-content .item-list {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
@@ -73,12 +78,15 @@
 }
 
 .block-views-blocktrending-topics-block-1 .content .view-id-trending_topics .view-content .item-list ul li .taxonomy-term h2 {
-  padding: 0.3rem;
-  /* border: 1px solid red; */
+  padding: 0 1rem;
   border-radius: 10px;
   font-weight: 400;
-  background-color: #b3d4fc;
-  opacity: 0.8;
+  background-color: #b3d4fc !important;
+}
+
+.block-views-blocktrending-topics-block-1 .content .view-id-trending_topics .view-content .item-list ul li .taxonomy-term h2 a {
+  -webkit-box-shadow: 0 1px 0 0 black;
+          box-shadow: 0 1px 0 0 black;
 }
 
 .block-views-blocktrending-topics-block-1 .content .view-id-trending_topics .view-content .item-list ul li .taxonomy-term h2 a .field__item {
@@ -91,6 +99,36 @@
 
 .block-views-blocktrending-topics-block-1 .content .view-id-trending_topics .view-content .item-list ul li .taxonomy-term h2 a .field__item:hover {
   color: red;
+}
+
+.block-views-blocktop-related-stories-article-content-page--block-1 {
+  margin-top: 2rem;
+}
+
+.block-views-blocktop-related-stories-article-content-page--block-1 h2 {
+  text-align: center;
+  color: #e33b26 !important;
+}
+
+.block-views-blocktop-related-stories-article-content-page--block-1 .item-list ol li::marker {
+  color: red !important;
+  background-color: green !important;
+}
+
+.block-views-blocktop-related-stories-article-content-page--block-1 .item-list ol li {
+  margin-bottom: 14px;
+  text-align: justify !important;
+}
+
+.block-views-blocktop-related-stories-article-content-page--block-1 .item-list ol li a {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 900;
+  color: black;
+}
+
+.block-views-blocktop-related-stories-article-content-page--block-1 .item-list ol li a:hover {
+  color: grey;
 }
 
 @media only screen and (min-width: 1023px) {
