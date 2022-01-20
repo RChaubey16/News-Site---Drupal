@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'ba12eaa9f146dc3f2ee4d2760b132361d7fa786f',
+        'reference' => 'e1210ea0698abce8e36a1f2190c8fbea2f4be33f',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -769,7 +769,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'ba12eaa9f146dc3f2ee4d2760b132361d7fa786f',
+            'reference' => 'e1210ea0698abce8e36a1f2190c8fbea2f4be33f',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1009,6 +1009,15 @@
                 0 => '9.3.0',
             ),
         ),
+        'drupal/tb_megamenu' => array(
+            'pretty_version' => '1.6.0',
+            'version' => '1.6.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/tb_megamenu',
+            'aliases' => array(),
+            'reference' => '8.x-1.6',
+            'dev_requirement' => false,
+        ),
         'drupal/telephone' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -1080,6 +1089,17 @@
             'replaced' => array(
                 0 => '9.3.0',
             ),
+        ),
+        'drupal/weather-weather' => array(
+            'pretty_version' => 'dev-1.x',
+            'version' => 'dev-1.x',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/weather-weather',
+            'aliases' => array(
+                0 => '1.x-dev',
+            ),
+            'reference' => '35a51b1d20bda7a201ad4a07ceea337345ce5f49',
+            'dev_requirement' => false,
         ),
         'drupal/webform' => array(
             'pretty_version' => '6.1.2',

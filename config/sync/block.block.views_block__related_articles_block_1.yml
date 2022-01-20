@@ -1,0 +1,24 @@
+uuid: 2ad79290-7f9a-438e-9980-87381df4b6fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.related_articles
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__related_articles_block_1
+theme: bartik
+region: featured_bottom_second
+weight: 0
+provider: null
+plugin: 'views_block:related_articles-block_1'
+settings:
+  id: 'views_block:related_articles-block_1'
+  label: 'You may also like'
+  label_display: visible
+  provider: views
+  views_label: 'You may also like'
+  items_per_page: none
+visibility: {  }

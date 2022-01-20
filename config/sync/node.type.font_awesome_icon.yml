@@ -1,0 +1,17 @@
+uuid: bb5f2df5-2dac-4810-92e7-7ea4f5710536
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'font awesome icon'
+type: font_awesome_icon
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

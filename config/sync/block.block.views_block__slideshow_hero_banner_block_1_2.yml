@@ -1,0 +1,24 @@
+uuid: 07c53a75-d2f0-4bfe-9262-c93fb0ce2e60
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.slideshow_hero_banner
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__slideshow_hero_banner_block_1_2
+theme: bartik
+region: highlighted
+weight: -10
+provider: null
+plugin: 'views_block:slideshow_hero_banner-block_1'
+settings:
+  id: 'views_block:slideshow_hero_banner-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

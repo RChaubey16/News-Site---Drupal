@@ -1,0 +1,24 @@
+uuid: bb44ce50-c4e3-475d-91fc-566d60cd6ba1
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.entertainment_view
+  module:
+    - views
+  theme:
+    - demo
+id: views_block__entertainment_view_block_1
+theme: demo
+region: topic_news_image
+weight: -35
+provider: null
+plugin: 'views_block:entertainment_view-block_1'
+settings:
+  id: 'views_block:entertainment_view-block_1'
+  label: 'Entertainment >'
+  label_display: visible
+  provider: views
+  views_label: 'Entertainment >'
+  items_per_page: none
+visibility: {  }

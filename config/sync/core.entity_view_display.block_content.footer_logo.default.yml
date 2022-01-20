@@ -1,0 +1,26 @@
+uuid: 1d11017b-76b3-4e8d-8425-3b8bb8d0b2ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_logo
+    - field.field.block_content.footer_logo.field_image
+    - image.style.large
+  module:
+    - image
+id: block_content.footer_logo.default
+targetEntityType: block_content
+bundle: footer_logo
+mode: default
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: large
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

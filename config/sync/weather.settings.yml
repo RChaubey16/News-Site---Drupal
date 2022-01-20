@@ -1,0 +1,5 @@
+_core:
+  default_config_hash: OJXUsIutXmUkk1bWEtujqJcnfvdB7EGm185YHwLCCto
+weather_image_directory: ''
+weather_forecast_days: 1
+weather_time_for_testing: 0

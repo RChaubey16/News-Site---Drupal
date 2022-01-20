@@ -28,6 +28,9 @@ regions:
   content_bottom_box2: "Content Bottom Box 2"
   sidebar_second: 'sidebar_second'
 
+  article_sidebar_1: 'Article Sidebar 1'
+  article_sidebar_2: 'Article Sidebar 2'
+
   topic_news_image: 'Topic News Image'
   topic_news_list: 'Topic News list'
   topic_news_sidebar: "Topic News Sidebar" 

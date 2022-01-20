@@ -1,0 +1,12 @@
+features:
+  node_user_picture: 1
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+logo:
+  use_default: 0
+  path: 'public://Screenshot from 2021-11-12 13-15-20.png'
+favicon:
+  use_default: 0
+  path: 'public://toi_logo_cropped.png'
+  mimetype: image/png

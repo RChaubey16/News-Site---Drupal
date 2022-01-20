@@ -1,0 +1,180 @@
+<div class="layout-container">
+
+	<header class="header__logoWrapper" role="banner">
+		<div class="header__details">
+			<div class="header_block_1">
+				{{ page.header_details_block_1  }}
+			</div>
+			<div class="header_block_2">
+				{{ page.header_details_block_2 }}
+			</div>
+
+		</div>
+		<div id="search__box" class="header__search">
+			{{ page.search_box }}
+		</div>
+		<div class="header__logoBox">
+			{{ page.header_logo }}
+		</div>
+	</header>
+
+
+	<div class="hamburger__menu">
+		{% if page.hamburger_menu %}
+			{{ page.hamburger_menu }}
+		{% endif %}
+	</div>
+
+	<div class="nav__wrapper">
+		<div class="navlinks__box">
+			{{ page.primary_menu }}
+		</div>
+	</div>
+
+	<div class="layout__articleContent">
+
+		<div class="layout__articleSidebar1">
+			{% if page.article_sidebar_1 %}
+				{{ page.article_sidebar_1 }}
+			{% endif %}
+		</div>
+		<div class="layout__articleMainContent">
+			{% if page.content %}
+				{{ page.content }}
+			{% endif %}
+		</div>
+
+		<div class="layout__articleSidebar2">
+			{% if page.article_sidebar_2 %}
+				{{ page.article_sidebar_2 }}
+			{% endif %}
+		</div>
+	</div>
+
+
+	<main class="layout__main" role="main">
+		<a id="main-content" tabindex="-1"></a>
+
+
+		<div class="layout-content">
+			<div class="main__content"></div>
+		</div>
+
+	</main>
+
+	<div class="layout__banner-bottom">
+		{% if page.banner_bottom %}
+			{{ page.banner_bottom }}
+		{% endif %}
+	</div>
+
+	<div class="layout__contentBottom1">
+		{% if page.content_bottom1 %}
+			{{ page.content_bottom1 }}
+		{% endif %}
+	</div>
+
+	<div class="layout__content-two-box">
+		<div class="layout__content_box1">
+			{% if page.content_bottom_box1 %}
+				{{ page.content_bottom_box1 }}
+			{% endif %}
+		</div>
+
+		<div class="layout__content_box2">
+			{% if page.content_bottom_box2 %}
+				{{ page.content_bottom_box2 }}
+			{% endif %}
+		</div>
+
+	</div>
+
+</div>
+{# /.layout-container #}
+
+<div class="layout__topicNewsWrapper">
+	<div class="layout__topicNews">
+
+
+		<div class="topic__image">
+			{% if page.topic_news_image %}
+				{{ page.topic_news_image }}
+			{% endif %}
+		</div>
+
+		<div class="topic__newsList">
+			{% if page.topic_news_list %}
+				{{ page.topic_news_list }}
+			{% endif %}
+		</div>
+	</div>
+</div>
+
+<div class="commonBox__container">
+	<div class="commonBox1__container">
+		{% if page.common_box_1 %}
+			{{ page.common_box_1 }}
+		{% endif %}
+	</div>
+	<div class="commonBox2__container">
+		{% if page.common_box_2 %}
+			{{ page.common_box_2 }}
+		{% endif %}
+	</div>
+</div>
+
+<div class="featured__containerWrapper">
+	<div class="featured__container">
+		{% if page.featured_news %}
+			{{ page.featured_news }}
+		{% endif %}
+	</div>
+</div>
+
+<div class="visual__stories">
+	<div class="visual__storiesContainer">
+		{% if page.visual_stories %}
+			{{ page.visual_stories }}
+		{% endif %}
+	</div>
+</div>
+
+<div class="grid-news__containerWrapper">
+	<div class="grid-news__container">
+		{% if page.grid_news %}
+			{{ page.grid_news }}
+		{% endif %}
+	</div>
+</div>
+
+
+{% if page.footer %}
+	<footer role="contentinfo">
+
+		<div class="footer__wrapper">
+			<div class="footer-menu-box">
+				<div class="footer-width footer_1_box">
+					{{ page.footer_1 }}
+				</div>
+
+				<div class="footer-width footer_2_box">
+					<div class="footer2__box">
+						{{ page.footer_2 }}
+					</div>
+				</div>
+
+				<div class="footer-width footer_3_box">
+					{{ page.footer_3 }}
+				</div>
+
+			</div>
+
+			<div class="footer__copyrights">
+
+				{{ page.footer }}
+			</div>
+		</div>
+
+
+	</footer>
+{% endif %}

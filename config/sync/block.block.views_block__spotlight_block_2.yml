@@ -1,0 +1,24 @@
+uuid: 0da63fa5-dc40-45a0-b718-43cade0d14fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.spotlight
+  module:
+    - views
+  theme:
+    - demo
+id: views_block__spotlight_block_2
+theme: demo
+region: article_sidebar_1
+weight: -44
+provider: null
+plugin: 'views_block:spotlight-block_2'
+settings:
+  id: 'views_block:spotlight-block_2'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

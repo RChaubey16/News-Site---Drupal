@@ -1,0 +1,14 @@
+uuid: 94cd35eb-90d8-4c02-91aa-748a4087d321
+langcode: en
+status: true
+dependencies: {  }
+name: logo
+label: logo
+effects:
+  d0485381-ab75-4d0a-b589-504a6e5dbdfc:
+    uuid: d0485381-ab75-4d0a-b589-504a6e5dbdfc
+    id: image_resize
+    weight: 1
+    data:
+      width: 900
+      height: 300

@@ -1,0 +1,43 @@
+uuid: aee9061a-4a82-4507-9a05-225235039c5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.rotator
+    - field.field.block_content.rotator.field_effect
+    - field.field.block_content.rotator.field_rotator_image
+    - field.field.block_content.rotator.field_rotator_interval
+  module:
+    - image
+    - interval
+    - options
+id: block_content.rotator.default
+targetEntityType: block_content
+bundle: rotator
+mode: default
+content:
+  field_effect:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_rotator_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_rotator_interval:
+    type: interval_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,11 @@
+uuid: d827bc67-685c-46d3-9b49-5e8a867c64de
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.rotator
+id: block_content.rotator
+target_entity_type_id: block_content
+target_bundle: rotator
+default_langcode: site_default
+language_alterable: false

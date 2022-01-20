@@ -1,0 +1,24 @@
+uuid: 41011f2a-7f76-4165-83b7-660f616fb41a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.search_icon
+  module:
+    - views
+  theme:
+    - demo
+id: views_block__search_icon_block_1
+theme: demo
+region: header_details_block_2
+weight: 0
+provider: null
+plugin: 'views_block:search_icon-block_1'
+settings:
+  id: 'views_block:search_icon-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

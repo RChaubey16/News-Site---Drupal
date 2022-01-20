@@ -1,0 +1,29 @@
+uuid: 997fb29b-e714-4910-bb08-e030fd1af164
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.footer_links.body
+    - node.type.footer_links
+  module:
+    - text
+    - user
+id: node.footer_links.default
+targetEntityType: node
+bundle: footer_links
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

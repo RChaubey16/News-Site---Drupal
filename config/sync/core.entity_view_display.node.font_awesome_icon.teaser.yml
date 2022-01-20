@@ -1,0 +1,23 @@
+uuid: 0fb2d824-89d2-4217-b0a1-e973b80fa007
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.font_awesome_icon.field_icon_
+    - node.type.font_awesome_icon
+  module:
+    - user
+id: node.font_awesome_icon.teaser
+targetEntityType: node
+bundle: font_awesome_icon
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_icon_: true
+  langcode: true

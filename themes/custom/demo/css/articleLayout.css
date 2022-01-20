@@ -1,1 +1,43 @@
-/* No CSS *//*# sourceMappingURL=articleLayout.css.map */
+.layout__articleContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.layout__articleContent .layout__articleMainContent {
+  padding: 0 1rem;
+}
+
+.layout__articleContent .layout__articleSidebar2 {
+  padding: 1rem;
+}
+
+@media only screen and (min-width: 1310px) {
+  .layout__articleContent {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .layout__articleContent .layout__articleSidebar1 {
+    -webkit-box-flex: 0.3;
+        -ms-flex: 0.3;
+            flex: 0.3;
+  }
+  .layout__articleContent .layout__articleMainContent {
+    -webkit-box-flex: 0.4;
+        -ms-flex: 0.4;
+            flex: 0.4;
+  }
+  .layout__articleContent .layout__articleSidebar2 {
+    -webkit-box-flex: 0.3;
+        -ms-flex: 0.3;
+            flex: 0.3;
+  }
+}
+/*# sourceMappingURL=articleLayout.css.map */

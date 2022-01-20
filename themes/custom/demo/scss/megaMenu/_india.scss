@@ -1,0 +1,16 @@
+.block-tb-megamenu-menu-blockmain{
+    .tb-megamenu-nav .tb-megamenu-item{
+        a {
+            padding: 8px 18px !important;
+            color: $black !important;
+            font-size: 0.85rem !important;
+            transition: .25s ease-in-out !important;
+            background-color: white !important;
+            
+            &:hover{
+                color: $primary !important;
+                text-decoration: underline !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+@import "../abstracts/colors";
+
+.layout__articleContent{
+    display: flex;
+    flex-direction:column;
+    // border: 2px solid $primary;
+    width: 100%;
+
+    // .layout__articleSidebar1{
+    //     // height: 100px;
+    //     // border: 2px solid green;
+    // }
+
+    .layout__articleMainContent{
+        padding: 0 1rem;
+    }
+    
+    .layout__articleSidebar2{
+        padding: 1rem;
+        // border: 2px solid purple;
+
+    }
+}
+
+@media only screen and (min-width: 1310px){
+    .layout__articleContent{
+        flex-direction: row;
+
+        .layout__articleSidebar1{
+            flex: 0.3;
+        }
+
+        .layout__articleMainContent{
+            flex: 0.4;
+        }
+
+
+        .layout__articleSidebar2{
+            flex: 0.3;
+        }
+    }
+}

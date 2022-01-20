@@ -1,0 +1,19 @@
+uuid: b9562058-581f-4c9b-bab2-38dfd3ddc334
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - interval
+id: block_content.field_rotator_interval
+field_name: field_rotator_interval
+entity_type: block_content
+type: interval
+settings: {  }
+module: interval
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

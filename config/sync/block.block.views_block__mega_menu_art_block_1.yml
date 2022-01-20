@@ -1,0 +1,29 @@
+uuid: a8b72830-2f21-4671-8aef-1316dd20f490
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mega_menu_art
+  module:
+    - system
+    - views
+  theme:
+    - demo
+id: views_block__mega_menu_art_block_1
+theme: demo
+region: banner_bottom
+weight: 0
+provider: null
+plugin: 'views_block:mega_menu_art-block_1'
+settings:
+  id: 'views_block:mega_menu_art-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "/india\r\n/article/*"

@@ -1,0 +1,17 @@
+uuid: b33be645-da7d-4a77-8b39-9729062c8690
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Footer Links'
+type: footer_links
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

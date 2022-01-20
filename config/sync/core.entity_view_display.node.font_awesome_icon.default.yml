@@ -1,0 +1,30 @@
+uuid: e0dda870-e37b-40f8-a8b6-31fdf613f462
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.font_awesome_icon.field_icon_
+    - node.type.font_awesome_icon
+  module:
+    - fontawesome
+    - user
+id: node.font_awesome_icon.default
+targetEntityType: node
+bundle: font_awesome_icon
+mode: default
+content:
+  field_icon_:
+    type: fontawesome_icon_formatter
+    label: above
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

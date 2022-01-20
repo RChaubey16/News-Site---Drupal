@@ -1,0 +1,24 @@
+uuid: 39d81608-1758-480f-a7d3-e08049c28047
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.copyrights
+  module:
+    - views
+  theme:
+    - demo
+id: views_block__copyrights_block_1
+theme: demo
+region: footer
+weight: -24
+provider: null
+plugin: 'views_block:copyrights-block_1'
+settings:
+  id: 'views_block:copyrights-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

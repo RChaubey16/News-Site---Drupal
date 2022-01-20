@@ -1,0 +1,14 @@
+uuid: 3cdf5976-7750-4ca0-a793-58da040d2169
+langcode: en
+status: true
+dependencies: {  }
+name: hero_banner
+label: 'Hero Banner (1080 x 351)'
+effects:
+  a248e7b0-e86a-44e4-8f49-51a187571089:
+    uuid: a248e7b0-e86a-44e4-8f49-51a187571089
+    id: image_resize
+    weight: 1
+    data:
+      width: 1280
+      height: 351

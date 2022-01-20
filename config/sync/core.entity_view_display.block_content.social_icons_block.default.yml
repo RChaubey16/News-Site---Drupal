@@ -1,0 +1,32 @@
+uuid: 265d9211-40f8-44bf-b51e-f2b991d0e077
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.social_icons_block
+    - field.field.block_content.social_icons_block.body
+    - field.field.block_content.social_icons_block.field_title
+  module:
+    - text
+id: block_content.social_icons_block.default
+targetEntityType: block_content
+bundle: social_icons_block
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

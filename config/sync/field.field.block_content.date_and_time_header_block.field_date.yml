@@ -1,0 +1,21 @@
+uuid: f94817f9-3bd5-46dc-ae47-d061e07299dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.date_and_time_header_block
+    - field.storage.block_content.field_date
+  module:
+    - datetime
+id: block_content.date_and_time_header_block.field_date
+field_name: field_date
+entity_type: block_content
+bundle: date_and_time_header_block
+label: 'Date and day'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

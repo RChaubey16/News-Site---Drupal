@@ -1,0 +1,24 @@
+uuid: 09308da4-5bc3-496f-af91-0c3cf968de4f
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.bottom_banner
+  module:
+    - views
+  theme:
+    - demo
+id: views_block__bottom_banner_block_1
+theme: demo
+region: banner_bottom
+weight: -31
+provider: null
+plugin: 'views_block:bottom_banner-block_1'
+settings:
+  id: 'views_block:bottom_banner-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

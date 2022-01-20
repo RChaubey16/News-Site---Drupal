@@ -282,6 +282,9 @@
 
 .footer-width {
   width: 100%;
+  -webkit-box-flex: 0.3;
+      -ms-flex: 0.3;
+          flex: 0.3;
 }
 
 .footer-width .footer2__box {

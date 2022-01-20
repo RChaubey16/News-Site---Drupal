@@ -31,7 +31,9 @@
         "drupal/search_api_page": "@dev",
         "drupal/slick": "^2.4",
         "drupal/slick_views": "^2.5",
+        "drupal/tb_megamenu": "^1.6",
         "drupal/views_slideshow": "^4.8",
+        "drupal/weather-weather": "1.x-dev",
         "drupal/webform": "^6.1"
     },
     "conflict": {

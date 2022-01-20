@@ -1,0 +1,30 @@
+uuid: 3447fc36-83f5-4f20-9f32-fbb3ff7e7538
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.date_and_time_header_block
+    - field.field.block_content.date_and_time_header_block.field_date
+  module:
+    - datetime
+id: block_content.date_and_time_header_block.default
+targetEntityType: block_content
+bundle: date_and_time_header_block
+mode: default
+content:
+  field_date:
+    type: datetime_default
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  langcode: true

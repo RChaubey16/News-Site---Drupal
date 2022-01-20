@@ -1,0 +1,24 @@
+uuid: 64178098-cb0a-4648-8d3b-3c020cc70bec
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.demo_hero
+  module:
+    - views
+  theme:
+    - demo
+id: demo_views_block__demo_hero_block_2
+theme: demo
+region: header_details_block_1
+weight: -25
+provider: null
+plugin: 'views_block:demo_hero-block_2'
+settings:
+  id: 'views_block:demo_hero-block_2'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

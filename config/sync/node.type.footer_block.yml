@@ -1,0 +1,17 @@
+uuid: d0107170-b7cb-421c-ac3b-784205751402
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Footer block'
+type: footer_block
+description: 'Footer blocks '
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

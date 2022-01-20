@@ -1,0 +1,15 @@
+uuid: 9ab88841-1aaf-4158-af86-9242e663e7b3
+langcode: en
+status: true
+dependencies: {  }
+name: 200_x_200
+label: '250 x 180'
+effects:
+  966d6caa-c763-40fe-8924-702847618b5f:
+    uuid: 966d6caa-c763-40fe-8924-702847618b5f
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 250
+      height: 180
+      anchor: center-center

@@ -1,0 +1,40 @@
+.block_mega_menu_sports {
+  .mega-dropdown-inner {
+    width: 100%;
+    .tb-megamenu-row .tb-megamenu-column {
+      .tb-megamenu-column-inner .mega-nav {
+        li a {
+          font-size: 12px;
+          border: none;
+          color: rgb(89, 89, 89);
+          font-weight: 200;
+        }
+      }
+    }
+  }
+}
+
+
+
+@media only screen and (max-width: 769px) {
+  .tb-megamenu .nav-collapse .nav > li {
+    width: 100vw;
+    // margin-left: -5vw;
+    margin-left: -40vw;
+    a{
+        text-align: center !important;
+    }
+
+    // width: 15vw;
+    // margin-left: -5vw;
+    // background-color: black;
+    // z-index: 999;
+  }
+  .tb-megamenu .nav-collapse .dropdown-menu {
+    background-color: lightgray;
+  }
+
+  .tb-megamenu .mega-nav, .tb-megamenu .dropdown-menu .mega-nav {
+    width: 80vw;
+  }
+}

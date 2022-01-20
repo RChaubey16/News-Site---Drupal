@@ -1,0 +1,20 @@
+uuid: 18d9c631-8d6f-4de3-8acd-b72928f980c0
+langcode: en
+status: false
+dependencies:
+  module:
+    - weather
+  theme:
+    - demo
+id: weathersystemwidedisplay1
+theme: demo
+region: header_details_block_1
+weight: 0
+provider: null
+plugin: 'weather_system_display_block:1'
+settings:
+  id: 'weather_system_display_block:1'
+  label: 'Weather: system-wide display (#1)'
+  label_display: '0'
+  provider: weather
+visibility: {  }

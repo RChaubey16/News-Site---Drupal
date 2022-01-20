@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "950b0583c85929427dca6efdfbebf59c",
+    "content-hash": "62f4726a1c7b022a804de370420f2b3e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2471,6 +2471,81 @@
             }
         },
         {
+            "name": "drupal/tb_megamenu",
+            "version": "1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/tb_megamenu.git",
+                "reference": "8.x-1.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/tb_megamenu-8.x-1.6.zip",
+                "reference": "8.x-1.6",
+                "shasum": "bf6d0e2b623af2a720b7cbe7117395c742f669f4"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.6",
+                    "datestamp": "1636411554",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Wade Stewart (themodularlab)",
+                    "homepage": "https://www.drupal.org/u/themodularlab",
+                    "role": "Owner"
+                },
+                {
+                    "name": "Michael Girgis (knaffles)",
+                    "homepage": "https://www.drupal.org/u/knaffles",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Andrew Olson (andrewozone)",
+                    "homepage": "https://www.drupal.org/u/andrewozone",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Justin Todd (quondam)",
+                    "homepage": "https://www.drupal.org/u/quondam",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Irene Dobbs (irene_dobbs)",
+                    "homepage": "https://www.drupal.org/u/irene_dobbs",
+                    "role": "Co-Maintainer"
+                },
+                {
+                    "name": "Henry Odiete (henry.odiete)",
+                    "homepage": "https://www.drupal.org/u/henry.odiete",
+                    "role": "Co-Maintainer"
+                },
+                {
+                    "name": "themodularlab",
+                    "homepage": "https://www.drupal.org/user/3190381"
+                }
+            ],
+            "description": "Provides complex, multi-column mega menu solutions for Drupal.",
+            "homepage": "https://www.drupal.org/project/tb_megamenu",
+            "support": {
+                "source": "https://git.drupalcode.org/project/tb_megamenu",
+                "issues": "https://www.drupal.org/project/issues/tb_megamenu"
+            }
+        },
+        {
             "name": "drupal/token",
             "version": "1.10.0",
             "source": {
@@ -2600,6 +2675,57 @@
                 "source": "https://git.drupalcode.org/project/views_slideshow",
                 "issues": "https://www.drupal.org/project/issues/views_slideshow",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
+            "name": "drupal/weather-weather",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/weather.git",
+                "reference": "35a51b1d20bda7a201ad4a07ceea337345ce5f49"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "require-dev": {
+                "drupal/block-block": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-beta4+16-dev",
+                    "datestamp": "1614766766",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "tarasich",
+                    "homepage": "https://www.drupal.org/user/2901135"
+                },
+                {
+                    "name": "toddy",
+                    "homepage": "https://www.drupal.org/user/62716"
+                },
+                {
+                    "name": "ysamoylenko",
+                    "homepage": "https://www.drupal.org/user/3554629"
+                }
+            ],
+            "homepage": "https://www.drupal.org/project/weather",
+            "support": {
+                "source": "https://git.drupalcode.org/project/weather"
             }
         },
         {
@@ -8161,7 +8287,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "drupal/search_api_page": 20
+        "drupal/search_api_page": 20,
+        "drupal/weather-weather": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

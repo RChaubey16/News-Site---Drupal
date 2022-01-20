@@ -1,0 +1,17 @@
+uuid: bd104ca5-e0d5-4341-8426-be29f3a805f3
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Featured News'
+type: featured_news
+description: 'Featured news content'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

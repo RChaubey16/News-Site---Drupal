@@ -77,9 +77,9 @@
     'clearfix',
   ]
 %}
+{% set date = node.createdtime|date('M d, Y') %}
 {{ attach_library('bartik/classy.node') }}
 <article{{ attributes.addClass(classes) }}>
-{# {{ kint(classes) }} #}
   <header>
     {{ title_prefix }}
       {% if label and not page %}
@@ -92,7 +92,8 @@
       <div class="node__meta">
         {{ author_picture }}
         <span{{ author_attributes }}>
-          {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
+          {# {% trans %}Submitted by {{ author_name }} on {{ date }} IST {% endtrans %} #}
+          {% trans %} / TNN / Updated: {{ author_name }} {{ date }} IST {% endtrans %}
         </span>
         {{ metadata }}
       </div>

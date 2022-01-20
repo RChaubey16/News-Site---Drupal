@@ -1,0 +1,15 @@
+uuid: da71a30e-7a14-4ba7-b44a-c493c7fe9b36
+langcode: en
+status: true
+dependencies: {  }
+name: content_highlight_image
+label: 'Content Highlight Image'
+effects:
+  267f4cb6-1dde-4ba2-ad4a-742716af217d:
+    uuid: 267f4cb6-1dde-4ba2-ad4a-742716af217d
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 600
+      height: 300
+      anchor: center-bottom
