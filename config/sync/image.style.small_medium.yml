@@ -1,0 +1,15 @@
+uuid: 9ae1cf04-08cf-4e99-92c1-910e2ba29066
+langcode: en
+status: true
+dependencies: {  }
+name: small_medium
+label: 'small-medium (180 x 140)'
+effects:
+  d2e13e9a-a728-4205-9714-d25a9cc3ac57:
+    uuid: d2e13e9a-a728-4205-9714-d25a9cc3ac57
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 350
+      height: 250
+      anchor: center-center

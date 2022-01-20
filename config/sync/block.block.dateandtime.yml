@@ -1,0 +1,25 @@
+uuid: ba17280d-6bcc-46f7-a3a5-bc9023f7e806
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:date_and_time_header_block:3bf88723-05b4-4c46-8575-c3f12367b9bd'
+  module:
+    - block_content
+  theme:
+    - demo
+id: dateandtime
+theme: demo
+region: header_details_block_1
+weight: 0
+provider: null
+plugin: 'block_content:3bf88723-05b4-4c46-8575-c3f12367b9bd'
+settings:
+  id: 'block_content:3bf88723-05b4-4c46-8575-c3f12367b9bd'
+  label: 'Date and time'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

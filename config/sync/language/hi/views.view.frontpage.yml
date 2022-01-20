@@ -1,0 +1,19 @@
+label: मुखपृष्ठ
+description: 'सभी सामग्री फ्रंट पेज पर प्रचारित की गई।'
+display:
+  default:
+    display_title: डीफॉल्ट
+    display_options:
+      exposed_form:
+        options:
+          submit_button: 'लागू करें'
+          reset_button_label: 'दोबारा से स्थापित करें|'
+          exposed_sorts_label: 'क्रमबद्ध द्वारा'
+          sort_desc_label: अवरोही
+      empty:
+        title:
+          title: '[site:name] पर आपका स्‍वागत है'
+  feed_1:
+    display_title: फ़ीड
+  page_1:
+    display_title: पृष्ठ

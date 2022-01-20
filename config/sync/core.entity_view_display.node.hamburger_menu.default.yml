@@ -1,0 +1,30 @@
+uuid: 99e58893-af6f-4d41-b66a-ce61821fb452
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.hamburger_menu.field_icon
+    - node.type.hamburger_menu
+  module:
+    - fontawesome
+    - user
+id: node.hamburger_menu.default
+targetEntityType: node
+bundle: hamburger_menu
+mode: default
+content:
+  field_icon:
+    type: fontawesome_icon_formatter
+    label: above
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,24 @@
+uuid: f616f6e8-2148-4d03-8b2a-c599bf1507bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.footer_2_block_2_
+  module:
+    - views
+  theme:
+    - demo
+id: views_block__footer_2_block_2__block_1
+theme: demo
+region: footer_2
+weight: -20
+provider: null
+plugin: 'views_block:footer_2_block_2_-block_1'
+settings:
+  id: 'views_block:footer_2_block_2_-block_1'
+  label: 'India & World'
+  label_display: visible
+  provider: views
+  views_label: 'India & World'
+  items_per_page: none
+visibility: {  }

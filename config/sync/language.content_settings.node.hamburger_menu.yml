@@ -1,0 +1,11 @@
+uuid: 3c805eab-cdac-465e-b902-d4de82371ceb
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.hamburger_menu
+id: node.hamburger_menu
+target_entity_type_id: node
+target_bundle: hamburger_menu
+default_langcode: site_default
+language_alterable: false

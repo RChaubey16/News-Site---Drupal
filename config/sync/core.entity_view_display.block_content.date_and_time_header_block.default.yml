@@ -1,0 +1,25 @@
+uuid: 2f1ade98-9d4a-420e-81c9-a0067033f626
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.date_and_time_header_block
+    - field.field.block_content.date_and_time_header_block.field_date
+  module:
+    - datetime
+id: block_content.date_and_time_header_block.default
+targetEntityType: block_content
+bundle: date_and_time_header_block
+mode: default
+content:
+  field_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

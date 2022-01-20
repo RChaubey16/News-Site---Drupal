@@ -1,0 +1,25 @@
+uuid: f7e21a5c-6b6a-4f28-9a67-576faf717fad
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:hero:71e2515a-8928-4d9c-9874-6f8e1224eb47'
+  module:
+    - block_content
+  theme:
+    - demo
+id: demo_banner
+theme: demo
+region: header_details_block_1
+weight: -22
+provider: null
+plugin: 'block_content:71e2515a-8928-4d9c-9874-6f8e1224eb47'
+settings:
+  id: 'block_content:71e2515a-8928-4d9c-9874-6f8e1224eb47'
+  label: Banner
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

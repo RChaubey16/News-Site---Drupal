@@ -1,0 +1,25 @@
+uuid: fb0b609b-2ffd-4220-a442-47176fb365cb
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:social_icons_block:02e92bd8-e3a1-4e01-973b-3fee312df01f'
+  module:
+    - block_content
+  theme:
+    - demo
+id: articlesocialblock
+theme: demo
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:02e92bd8-e3a1-4e01-973b-3fee312df01f'
+settings:
+  id: 'block_content:02e92bd8-e3a1-4e01-973b-3fee312df01f'
+  label: 'Article Social block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

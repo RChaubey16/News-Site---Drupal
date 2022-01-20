@@ -1,0 +1,15 @@
+uuid: f30a8742-0c5d-48f8-b9a1-7d935a7cc9aa
+langcode: en
+status: true
+dependencies: {  }
+name: frontpage_slideshow
+label: frontpage_slideshow
+effects:
+  f4c13b88-aa69-40e0-8ba4-899f987e7879:
+    uuid: f4c13b88-aa69-40e0-8ba4-899f987e7879
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 1280
+      height: 300
+      anchor: center-top

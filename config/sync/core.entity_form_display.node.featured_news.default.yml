@@ -1,0 +1,54 @@
+uuid: 878b8794-17b3-42d3-ad48-3ccd049aa101
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.featured_news.field_featured_news_image
+    - field.field.node.featured_news.field_featured_news_title
+    - image.style.thumbnail
+    - node.type.featured_news
+  module:
+    - image
+id: node.featured_news.default
+targetEntityType: node
+bundle: featured_news
+mode: default
+content:
+  field_featured_news_image:
+    type: image_image
+    weight: 2
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_featured_news_title:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 1
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  status: true
+  sticky: true
+  uid: true

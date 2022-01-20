@@ -1,0 +1,15 @@
+uuid: 05887ef3-fe82-4523-bba2-12ebde67e9c4
+langcode: en
+status: true
+dependencies: {  }
+name: movie_poster
+label: 'Movie Poster'
+effects:
+  de1393d3-7e01-405a-b40d-ded6465e4974:
+    uuid: de1393d3-7e01-405a-b40d-ded6465e4974
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 120
+      height: 200
+      anchor: left-center

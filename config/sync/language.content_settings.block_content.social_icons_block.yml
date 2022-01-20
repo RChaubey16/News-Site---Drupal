@@ -1,0 +1,11 @@
+uuid: 2a333ce2-7f89-435b-a854-ecb4627a3c71
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.social_icons_block
+id: block_content.social_icons_block
+target_entity_type_id: block_content
+target_bundle: social_icons_block
+default_langcode: site_default
+language_alterable: false

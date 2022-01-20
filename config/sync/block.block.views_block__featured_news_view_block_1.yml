@@ -1,0 +1,24 @@
+uuid: e12d7082-ced3-40be-bd54-8e5449030eeb
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.featured_news_view
+  module:
+    - views
+  theme:
+    - demo
+id: views_block__featured_news_view_block_1
+theme: demo
+region: featured_news
+weight: -29
+provider: null
+plugin: 'views_block:featured_news_view-block_1'
+settings:
+  id: 'views_block:featured_news_view-block_1'
+  label: 'Featured News'
+  label_display: visible
+  provider: views
+  views_label: 'Featured News'
+  items_per_page: none
+visibility: {  }

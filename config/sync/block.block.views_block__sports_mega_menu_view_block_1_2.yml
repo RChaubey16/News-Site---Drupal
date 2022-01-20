@@ -1,0 +1,24 @@
+uuid: 97fbce85-8834-4987-801b-a1f395fa217a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.sports_mega_menu_view
+  module:
+    - views
+  theme:
+    - demo
+id: views_block__sports_mega_menu_view_block_1_2
+theme: demo
+region: banner_top
+weight: 0
+provider: null
+plugin: 'views_block:sports_mega_menu_view-block_1'
+settings:
+  id: 'views_block:sports_mega_menu_view-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

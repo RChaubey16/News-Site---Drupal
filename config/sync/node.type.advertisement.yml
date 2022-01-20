@@ -1,0 +1,17 @@
+uuid: 351f7c89-5712-4f62-9bf3-c543864c8a30
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Advertisement
+type: advertisement
+description: 'Ads block'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

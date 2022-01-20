@@ -1,0 +1,21 @@
+uuid: 6a16e0f2-92da-4c76-8df6-2b98505b243d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_icon
+    - node.type.hamburger_menu
+  module:
+    - fontawesome
+id: node.hamburger_menu.field_icon
+field_name: field_icon
+entity_type: node
+bundle: hamburger_menu
+label: Icon
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon

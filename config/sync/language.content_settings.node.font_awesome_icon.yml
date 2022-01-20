@@ -1,0 +1,11 @@
+uuid: a0f40c59-5285-4872-b825-a698fbbf5873
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.font_awesome_icon
+id: node.font_awesome_icon
+target_entity_type_id: node
+target_bundle: font_awesome_icon
+default_langcode: site_default
+language_alterable: false

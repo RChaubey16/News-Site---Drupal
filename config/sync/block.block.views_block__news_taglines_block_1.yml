@@ -1,0 +1,24 @@
+uuid: fdfbd17c-74b9-47eb-8940-544612889c36
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.news_taglines
+  module:
+    - views
+  theme:
+    - demo
+id: views_block__news_taglines_block_1
+theme: demo
+region: featured_news
+weight: -31
+provider: null
+plugin: 'views_block:news_taglines-block_1'
+settings:
+  id: 'views_block:news_taglines-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

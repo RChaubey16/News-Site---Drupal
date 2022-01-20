@@ -1,0 +1,24 @@
+uuid: 6a8e7d0b-c6d7-465b-8fcb-5b52c2a28461
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.articles
+  module:
+    - views
+  theme:
+    - demo
+id: views_block__articles_block_1
+theme: demo
+region: article_sidebar_1
+weight: 0
+provider: null
+plugin: 'views_block:articles-block_1'
+settings:
+  id: 'views_block:articles-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

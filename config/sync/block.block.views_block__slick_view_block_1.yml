@@ -1,0 +1,24 @@
+uuid: 39903c88-8910-448e-abfa-1c8593526668
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.slick_view
+  module:
+    - views
+  theme:
+    - demo
+id: views_block__slick_view_block_1
+theme: demo
+region: banner_bottom
+weight: -33
+provider: null
+plugin: 'views_block:slick_view-block_1'
+settings:
+  id: 'views_block:slick_view-block_1'
+  label: TOI+
+  label_display: visible
+  provider: views
+  views_label: TOI+
+  items_per_page: none
+visibility: {  }

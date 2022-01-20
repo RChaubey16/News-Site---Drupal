@@ -1,0 +1,8 @@
+uuid: 29e039a3-2210-44fa-ac2d-9c2456703953
+langcode: en
+status: true
+dependencies: {  }
+id: date_and_time_header_block
+label: 'Date and Time Header Block'
+revision: 0
+description: 'Displays date, time and weather'

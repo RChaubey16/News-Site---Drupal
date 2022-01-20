@@ -1,0 +1,25 @@
+uuid: 8b2bf9d1-12e3-4833-9201-b88f19079730
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:social_icons_block:64543e1b-f3a4-40bc-b654-fcfc72f761c1'
+  module:
+    - block_content
+  theme:
+    - demo
+id: socialmediabox
+theme: demo
+region: footer_1
+weight: -26
+provider: null
+plugin: 'block_content:64543e1b-f3a4-40bc-b654-fcfc72f761c1'
+settings:
+  id: 'block_content:64543e1b-f3a4-40bc-b654-fcfc72f761c1'
+  label: 'Social Media Box'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

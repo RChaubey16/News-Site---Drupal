@@ -1,0 +1,24 @@
+uuid: 21db56e9-4d7c-4825-9f02-533253f15267
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.trending_headlines
+  module:
+    - views
+  theme:
+    - demo
+id: views_block__trending_headlines_block_1
+theme: demo
+region: topic_news_list
+weight: -36
+provider: null
+plugin: 'views_block:trending_headlines-block_1'
+settings:
+  id: 'views_block:trending_headlines-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,8 @@
+uuid: 85073f91-b133-41f2-808e-7a5febe64225
+langcode: en
+status: true
+dependencies: {  }
+id: social_icons_block
+label: 'Social Icons block'
+revision: 0
+description: 'Social icons of the site'

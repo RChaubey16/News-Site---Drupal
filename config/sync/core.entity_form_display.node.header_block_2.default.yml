@@ -1,0 +1,40 @@
+uuid: 3fb47ffa-100a-47ca-87df-1a57b8bee5a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.header_block_2.body
+    - node.type.header_block_2
+  module:
+    - text
+id: node.header_block_2.default
+targetEntityType: node
+bundle: header_block_2
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 1
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

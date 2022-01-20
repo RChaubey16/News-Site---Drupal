@@ -1,0 +1,19 @@
+uuid: e6b87d52-a6c0-4df3-b21a-a10417fafbd2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_featured_news_title
+    - node.type.featured_news
+id: node.featured_news.field_featured_news_title
+field_name: field_featured_news_title
+entity_type: node
+bundle: featured_news
+label: 'Featured news title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

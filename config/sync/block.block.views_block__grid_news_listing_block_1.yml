@@ -1,0 +1,24 @@
+uuid: 8e8e4f5f-9cfb-4917-99f2-98ca29ec8536
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.grid_news_listing
+  module:
+    - views
+  theme:
+    - demo
+id: views_block__grid_news_listing_block_1
+theme: demo
+region: grid_news
+weight: 0
+provider: null
+plugin: 'views_block:grid_news_listing-block_1'
+settings:
+  id: 'views_block:grid_news_listing-block_1'
+  label: 'Trending Headlines'
+  label_display: visible
+  provider: views
+  views_label: 'Trending Headlines'
+  items_per_page: none
+visibility: {  }

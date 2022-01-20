@@ -1,0 +1,17 @@
+uuid: aa77b3c0-70f3-46a2-9b38-93141be2e394
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Header Block 1'
+type: header_block_1
+description: 'Contents like date and day, language of the site is displayed here. '
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,24 @@
+uuid: d7f18667-cf0a-4467-abe7-fd6c1c88efae
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.content_bottom_1_you_may_like_
+  module:
+    - views
+  theme:
+    - demo
+id: views_block__content_bottom_1_you_may_like__block_1
+theme: demo
+region: content_bottom1
+weight: -32
+provider: null
+plugin: 'views_block:content_bottom_1_you_may_like_-block_1'
+settings:
+  id: 'views_block:content_bottom_1_you_may_like_-block_1'
+  label: 'You May like'
+  label_display: visible
+  provider: views
+  views_label: 'You May like'
+  items_per_page: none
+visibility: {  }

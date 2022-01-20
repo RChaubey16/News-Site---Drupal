@@ -796,7 +796,7 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 
-$settings['config_sync_directory'] = 'sites/default/files/config_yK3I4RyVB4z7e3-S-sp2BhJY25YYZFyvHCh6VdJ_uu8NcBItBpwm0kGb4mWoYvZOoVWXDKOHQg/sync';
+$settings['config_sync_directory'] = 'config/sync';
 
 /**
  * Load local development override configuration, if available.

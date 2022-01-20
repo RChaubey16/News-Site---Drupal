@@ -1,0 +1,11 @@
+uuid: fb12ede9-df53-4740-a9f8-02f4dbb7d496
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.footer_block
+id: node.footer_block
+target_entity_type_id: node
+target_bundle: footer_block
+default_langcode: site_default
+language_alterable: false

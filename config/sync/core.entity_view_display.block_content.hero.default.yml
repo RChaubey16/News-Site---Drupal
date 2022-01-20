@@ -1,0 +1,26 @@
+uuid: c1c1b4b1-3953-4c34-b6ec-17f85141e61d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero
+    - field.field.block_content.hero.field_hero_image
+    - image.style.hero_banner
+  module:
+    - image
+id: block_content.hero.default
+targetEntityType: block_content
+bundle: hero
+mode: default
+content:
+  field_hero_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: hero_banner
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

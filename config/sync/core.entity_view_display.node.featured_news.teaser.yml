@@ -1,0 +1,25 @@
+uuid: 1949ec54-7174-4a54-aa43-102139b32bf0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.featured_news.field_featured_news_image
+    - field.field.node.featured_news.field_featured_news_title
+    - node.type.featured_news
+  module:
+    - user
+id: node.featured_news.teaser
+targetEntityType: node
+bundle: featured_news
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_featured_news_image: true
+  field_featured_news_title: true
+  langcode: true

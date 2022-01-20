@@ -1,0 +1,17 @@
+uuid: c139ab68-37a8-4d98-8756-745e06b8996b
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Header Block 2'
+type: header_block_2
+description: 'Sign in button, social icons.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

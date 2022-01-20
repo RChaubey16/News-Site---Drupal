@@ -1,0 +1,24 @@
+uuid: 59a7a48c-5f70-462f-b960-495c5810a238
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.headlines
+  module:
+    - views
+  theme:
+    - demo
+id: views_block__headlines_block_1_2
+theme: demo
+region: article_sidebar_2
+weight: 0
+provider: null
+plugin: 'views_block:headlines-block_1'
+settings:
+  id: 'views_block:headlines-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

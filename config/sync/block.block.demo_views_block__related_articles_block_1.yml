@@ -1,0 +1,24 @@
+uuid: 583df5f6-e20e-4ca2-88ef-1c6522695640
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.related_articles
+  module:
+    - views
+  theme:
+    - demo
+id: demo_views_block__related_articles_block_1
+theme: demo
+region: header_details_block_1
+weight: -26
+provider: null
+plugin: 'views_block:related_articles-block_1'
+settings:
+  id: 'views_block:related_articles-block_1'
+  label: 'You may also like'
+  label_display: visible
+  provider: views
+  views_label: 'You may also like'
+  items_per_page: none
+visibility: {  }

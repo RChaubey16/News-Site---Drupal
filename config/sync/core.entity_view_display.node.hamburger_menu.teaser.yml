@@ -1,0 +1,23 @@
+uuid: c4b4e6bc-c453-4a63-9186-f772e97f2016
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.hamburger_menu.field_icon
+    - node.type.hamburger_menu
+  module:
+    - user
+id: node.hamburger_menu.teaser
+targetEntityType: node
+bundle: hamburger_menu
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_icon: true
+  langcode: true

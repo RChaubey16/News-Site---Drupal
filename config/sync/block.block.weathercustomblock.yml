@@ -1,0 +1,88 @@
+uuid: 284cfa6c-c685-4616-96c6-4ef16f570725
+langcode: en
+status: true
+dependencies:
+  module:
+    - icecream
+  theme:
+    - demo
+id: weathercustomblock
+theme: demo
+region: header_details_block_1
+weight: 0
+provider: null
+plugin: icecream_weather_module
+settings:
+  id: icecream_weather_module
+  label: 'Weather custom block'
+  label_display: '0'
+  provider: icecream
+  custom_block_mode: null
+  weather_block_mode:
+    settings:
+      label: 'Weather custom block'
+      admin_label: null
+      label_display: null
+    city: London
+    visibility:
+      request_path:
+        pages: ''
+        negate: '0'
+      webform:
+        context_mapping:
+          webform: ''
+          webform_submission: ''
+          node: ''
+        webforms: null
+        negate: null
+      'entity_bundle:node':
+        bundles:
+          advertisement: null
+          article: null
+          featured_news: null
+          font_awesome_icon: null
+          footer_block: null
+          hamburger_menu: null
+          header_block_1: null
+          header_block_2: null
+          menu_item: null
+          page: null
+          webform: null
+      'entity_bundle:taxonomy_term':
+        bundles:
+          tags: null
+        negate: null
+      'entity_bundle:webform_submission':
+        bundles:
+          contact: null
+          registration_form: null
+          template_contact: null
+          template_employee_evaluation: null
+          template_feedback: null
+          template_issue: null
+          template_job_application: null
+          template_job_seeker_profile: null
+          template_medical_appointment: null
+          template_registration: null
+          template_session_evaluation: null
+          template_subscribe: null
+          template_user_profile: null
+        negate: null
+      language:
+        langcodes:
+          en: null
+          hi: null
+      user_role:
+        roles:
+          anonymous: null
+          authenticated: null
+          administrator: null
+    visibility_tabs:
+      visibility_tabs__active_tab: edit-visibility-entity-bundlenode
+    weight: '0'
+    region: header_details_block_1
+    form_build_id: form-APUcT-10NRgTGCDdfYrwY7B0NQgdQWxdo3rb7NCIBfk
+    form_token: F7T66e-iCLArddsfp-KuExeDd63AYqdVDbGj8Z97HMU
+    form_id: block_form
+    op: 'Save block'
+visibility: {  }

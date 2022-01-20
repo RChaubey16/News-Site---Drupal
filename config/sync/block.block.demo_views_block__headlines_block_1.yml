@@ -1,0 +1,29 @@
+uuid: a0857d97-cfd3-4844-bed1-5bfe9ed63400
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.headlines
+  module:
+    - system
+    - views
+  theme:
+    - demo
+id: demo_views_block__headlines_block_1
+theme: demo
+region: sidebar_second
+weight: -11
+provider: null
+plugin: 'views_block:headlines-block_1'
+settings:
+  id: 'views_block:headlines-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "/activities\r\n/registration-form"

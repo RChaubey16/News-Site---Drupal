@@ -1,0 +1,8 @@
+uuid: 63bda730-eb35-45b5-84c6-4966973c7e26
+langcode: en
+status: true
+dependencies: {  }
+id: hero
+label: Hero
+revision: 0
+description: 'Banner block of the website.'

@@ -1,0 +1,17 @@
+uuid: 12bb37ad-b43e-41d0-a242-598fa2c89810
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Menu item'
+type: menu_item
+description: 'Content appears in hamburger menu'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

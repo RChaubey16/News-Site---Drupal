@@ -1,0 +1,23 @@
+uuid: 2200f22c-a5a4-404d-9bc7-a3ade306d4f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.social_icons_block
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.social_icons_block.body
+field_name: body
+entity_type: block_content
+bundle: social_icons_block
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

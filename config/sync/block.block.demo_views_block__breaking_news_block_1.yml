@@ -1,0 +1,29 @@
+uuid: e3eb1e97-9b47-408e-bec1-8d92fac59c00
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.breaking_news
+  module:
+    - system
+    - views
+  theme:
+    - demo
+id: demo_views_block__breaking_news_block_1
+theme: demo
+region: header_details_block_1
+weight: -27
+provider: null
+plugin: 'views_block:breaking_news-block_1'
+settings:
+  id: 'views_block:breaking_news-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "/activities\r\n/registration-form\r\n/briefs"

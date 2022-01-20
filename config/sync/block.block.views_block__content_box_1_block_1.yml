@@ -1,0 +1,24 @@
+uuid: 45222aec-a011-432c-92d5-e8647b23ecac
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.content_box_1
+  module:
+    - views
+  theme:
+    - demo
+id: views_block__content_box_1_block_1
+theme: demo
+region: content_bottom_box1
+weight: 0
+provider: null
+plugin: 'views_block:content_box_1-block_1'
+settings:
+  id: 'views_block:content_box_1-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

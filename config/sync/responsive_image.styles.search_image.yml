@@ -1,0 +1,11 @@
+uuid: 26a922f2-f05e-4e3e-bff6-79568b26abe2
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.medium
+id: search_image
+label: 'Search Image'
+image_style_mappings: {  }
+breakpoint_group: responsive_image
+fallback_image_style: medium

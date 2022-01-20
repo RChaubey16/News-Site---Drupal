@@ -1,0 +1,24 @@
+uuid: e923dacf-8167-4461-b405-8e97f353bd2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.topic_image_news
+  module:
+    - views
+  theme:
+    - demo
+id: views_block__topic_image_news_block_2
+theme: demo
+region: topic_news_image
+weight: -33
+provider: null
+plugin: 'views_block:topic_image_news-block_2'
+settings:
+  id: 'views_block:topic_image_news-block_2'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }
