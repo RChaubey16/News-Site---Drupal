@@ -131,6 +131,38 @@
   color: grey;
 }
 
+.block-views-blockelection-news-article-content--block-1 .view-display-id-attachment_1 .views-row {
+  border: none;
+}
+
+.block-views-blockelection-news-article-content--block-1 .view-display-id-attachment_1 .views-field-field-image a img {
+  width: 100% !important;
+  border-radius: 10px;
+}
+
+.block-views-blockelection-news-article-content--block-1 .view-display-id-attachment_1 .views-field-title a {
+  text-align: justify;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+.block-views-blockelection-news-article-content--block-1 .view-display-id-attachment_1 .views-field-title a:hover {
+  color: #e33b26;
+}
+
+.block-views-blockelection-news-article-content--block-1 .views-view-table tbody tr {
+  background: transparent !important;
+}
+
+.block-views-blockelection-news-article-content--block-1 .views-view-table tbody tr .views-field-field-image a img {
+  border-radius: 7px;
+}
+
+.block-views-blockelection-news-article-content--block-1 .views-view-table tbody tr .views-field-title a {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
 @media only screen and (min-width: 1023px) {
   .node--type-article .node__content .field--type-image {
     display: -webkit-box;

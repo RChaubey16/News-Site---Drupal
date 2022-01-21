@@ -1,0 +1,24 @@
+uuid: 255821bd-89f3-4187-a066-a8b23ee9d2c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.election_news_article_content_
+  module:
+    - views
+  theme:
+    - demo
+id: views_block__election_news_article_content__block_1
+theme: demo
+region: article_sidebar_1
+weight: 0
+provider: null
+plugin: 'views_block:election_news_article_content_-block_1'
+settings:
+  id: 'views_block:election_news_article_content_-block_1'
+  label: Elections
+  label_display: visible
+  provider: views
+  views_label: Elections
+  items_per_page: none
+visibility: {  }

@@ -144,13 +144,60 @@
         line-height: 20px;
         font-weight: 900;
         color: $black;
-        
-        &:hover{
+
+        &:hover {
           color: $grey;
         }
       }
     }
   }
+}
+
+// Election Block
+.block-views-blockelection-news-article-content--block-1 {
+  .view-display-id-attachment_1 {
+    .views-row{
+      border: none;
+    }
+    .views-field-field-image {
+      a img {
+        width: 100% !important;
+        border-radius: 10px;
+      }
+    }
+
+    .views-field-title {
+      a {
+        text-align: justify;
+        font-size: 0.9rem;
+        font-weight: 900;
+
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+  }
+
+  .views-view-table{
+    tbody tr{
+      background : transparent !important;
+
+      .views-field-field-image{
+        a img{
+          border-radius: 7px;
+        }
+      }
+
+      .views-field-title{
+        a{
+          font-size: 0.8rem;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
 }
 
 @media only screen and (min-width: 1023px) {
