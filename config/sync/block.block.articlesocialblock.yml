@@ -6,12 +6,13 @@ dependencies:
     - 'block_content:social_icons_block:02e92bd8-e3a1-4e01-973b-3fee312df01f'
   module:
     - block_content
+    - system
   theme:
     - demo
 id: articlesocialblock
 theme: demo
 region: content
-weight: 0
+weight: -41
 provider: null
 plugin: 'block_content:02e92bd8-e3a1-4e01-973b-3fee312df01f'
 settings:
@@ -22,4 +23,8 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: /search-api-view

@@ -11,7 +11,7 @@ _core:
 id: demo_local_actions
 theme: demo
 region: content
-weight: -29
+weight: -43
 provider: null
 plugin: local_actions_block
 settings:

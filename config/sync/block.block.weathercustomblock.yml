@@ -21,9 +21,10 @@ settings:
   weather_block_mode:
     settings:
       label: 'Weather custom block'
+      weather_or_pollution: weather
       admin_label: null
       label_display: null
-    city: London
+    city: Pune
     visibility:
       request_path:
         pages: ''
@@ -42,6 +43,7 @@ settings:
           featured_news: null
           font_awesome_icon: null
           footer_block: null
+          footer_links: null
           hamburger_menu: null
           header_block_1: null
           header_block_2: null
@@ -81,8 +83,8 @@ settings:
       visibility_tabs__active_tab: edit-visibility-entity-bundlenode
     weight: '0'
     region: header_details_block_1
-    form_build_id: form-APUcT-10NRgTGCDdfYrwY7B0NQgdQWxdo3rb7NCIBfk
-    form_token: F7T66e-iCLArddsfp-KuExeDd63AYqdVDbGj8Z97HMU
+    form_build_id: form-RxWXbOMGQTXQ8ADh5t-WIY6_UMQ46cCz53-b4eH6lsY
+    form_token: rNsFIn-jLtB6ckV0I656c11cL3ni7wSui2vzzKmVNYs
     form_id: block_form
     op: 'Save block'
 visibility: {  }
