@@ -28,6 +28,42 @@
   color: black;
 }
 
+.weather__block {
+  margin-top: 10px;
+  margin-left: 3px;
+}
+
+.weather__block .content {
+  margin: 0 !important;
+  padding: 0 3px;
+  font-weight: 900;
+  color: white;
+}
+
+.weather__block .content p {
+  color: white !important;
+}
+
+.weather__block {
+  background-color: #e33b26;
+  border-radius: 5px;
+}
+
+.good__green {
+  background: green !important;
+  border-radius: 5px;
+}
+
+.moderate__yellow {
+  background: #FFD700 !important;
+  border-radius: 5px;
+}
+
+.poor__red {
+  background: red !important;
+  border-radius: 5px;
+}
+
 /* Banner slideshow */
 .field-content a {
   border: none;

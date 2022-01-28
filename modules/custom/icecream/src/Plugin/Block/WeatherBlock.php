@@ -75,22 +75,50 @@ class WeatherBlock extends BlockBase
 
         $result = \Drupal::service('weather.service')->getWeather($city);
         $weatherData = json_decode($result);
+        $forecast = strtolower($weatherData->weather[0]->main);
+
+        // Icon based on forecast
+        if ($forecast == "clear") {
+            $icon__class = "<i class='fas fa-sun'></i>";
+        } elseif ($forecast == "clouds") {
+            $icon__class = "<i class='fas fa-cloud'></i>";
+        } elseif ($forecast == 'mist') {
+            $icon__class =  "<i class='fas fa-snowflake'></i>";
+        } elseif ($forecast == 'rainy') {
+            $icon__class =  "<i class='fas fa-cloud-rain'></i>";
+        }
 
         if ($typeOfData == "weather") {
             return [
-                "#markup" => " " . $weatherData->name . " " . $weatherData->main->temp . " °C",
+                "#markup" => "<p> " . $weatherData->name . " " . $weatherData->main->temp . " °C " . $icon__class . "
+                </p>",
+                '#attributes' => [
+                    'class' => ['weather__block'],
+                ],
 
             ];
         } elseif ($typeOfData == "pollution") {
             $lon = $weatherData->coord->lon;
             $lat = $weatherData->coord->lat;
 
-            $result = \Drupal::service('weather.service')->getPollutionIndex($lon, $lat);            
+            $result = \Drupal::service('weather.service')->getPollutionIndex($lon, $lat);
             $pollutionData = json_decode($result);
-            $rate = $pollutionData->list[0]->components->co;
+            $rate = round($pollutionData->list[0]->components->pm10);
 
-            return[
+            // background color based pollution index
+            if ($rate < 40) {
+                $pollution_class = "good__green";
+            } elseif ($rate > 40 && $rate < 100) {
+                $pollution_class = "moderate__yellow";
+            } elseif ($rate > 100) {
+                $pollution_class = "poor__red";
+            }
+
+            return [
                 "#markup" => " " . $weatherData->name . " Pollution " . $rate . " AQI",
+                '#attributes' => [
+                    'class' => [$pollution_class],
+                ],
             ];
         }
     }
