@@ -92,3 +92,24 @@ function demo_preprocess_node(&$variables)
 
     // kint($variables);
 }
+
+function demo_preprocess_container(&$variables){
+    $route_name = \Drupal::routeMatch()->getRouteName();
+    if ($route_name == "view.search_api_view.page_1" || $route_name == "view.india.page_1"){
+        $variables['#attached']['library'][] = 'demo/search_styles';
+    }
+    $variables['route__name'] = $route_name;
+    // kint($variables);
+}
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter().
+ */
+function demo_theme_suggestions_region_alter(array &$suggestions, array $variables) {
+    $logged_in = \Drupal::currentUser()->isAuthenticated();
+    if ($logged_in) {
+      $suggestions[] = 'region___' . 'authenticated';
+    }
+    // kint($variables);
+    // $check = $variables['elements']['system_main']['#view_id'];
+  }

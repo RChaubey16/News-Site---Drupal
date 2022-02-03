@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * Implements hook_theme
+ */
+function icecream_theme($existing, $type, $theme, $path)
+{
+    return [
+        'weather_pollution' => [
+            'variables' => [
+                'city' => NULL,
+                'data' => NULL,
+                'icon' => NULL,
+                'class' => 'weather-pollution-block', 
+            ],
+        ],
+    ];
+}

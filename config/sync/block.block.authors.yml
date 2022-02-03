@@ -1,0 +1,29 @@
+uuid: c2bb821c-cb18-462c-afb2-91cbe42b1572
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.authors
+  module:
+    - facets
+    - system
+  theme:
+    - demo
+id: authors
+theme: demo
+region: content
+weight: -47
+provider: null
+plugin: 'facet_block:authors'
+settings:
+  id: 'facet_block:authors'
+  label: Authors
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: authors
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /topic

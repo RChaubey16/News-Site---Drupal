@@ -4,6 +4,9 @@ module:
   admin_toolbar: 0
   admin_toolbar_tools: 0
   adminimal_admin_toolbar: 0
+  adsense: 0
+  adsense_adstxt: 0
+  adsense_oldcode: 0
   automated_cron: 0
   big_pipe: 0
   blazy: 0
@@ -27,6 +30,10 @@ module:
   ds_switch_view_mode: 0
   dynamic_page_cache: 0
   editor: 0
+  facets: 0
+  facets_rest: 0
+  facets_searchbox_widget: 0
+  facets_summary: 0
   field: 0
   field_ui: 0
   file: 0
@@ -53,9 +60,12 @@ module:
   quickedit: 0
   rdf: 0
   responsive_image: 0
+  rest: 0
   search_api: 0
+  search_api_autocomplete: 0
   search_api_db: 0
   search_api_db_defaults: 0
+  serialization: 0
   shortcut: 0
   slick: 0
   slick_ui: 0

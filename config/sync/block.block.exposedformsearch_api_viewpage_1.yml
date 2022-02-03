@@ -1,4 +1,4 @@
-uuid: efd94ad8-444a-4a1a-99b0-40b078b15d83
+uuid: 131e68e6-0fba-4659-901d-76623eeb375f
 langcode: en
 status: true
 dependencies:
@@ -11,8 +11,8 @@ dependencies:
     - demo
 id: exposedformsearch_api_viewpage_1
 theme: demo
-region: content
-weight: -47
+region: search_page_block
+weight: -48
 provider: null
 plugin: 'views_exposed_filter_block:search_api_view-page_1'
 settings:
@@ -24,5 +24,5 @@ settings:
 visibility:
   request_path:
     id: request_path
-    negate: true
-    pages: '/article/*'
+    negate: false
+    pages: /topic

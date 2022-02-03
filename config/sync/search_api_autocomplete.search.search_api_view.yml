@@ -1,0 +1,33 @@
+uuid: aa978471-bf3c-469a-8351-b0dc78ebb649
+langcode: en
+status: true
+dependencies:
+  config:
+    - search_api.index.default_index
+    - views.view.search_api_view
+  module:
+    - views
+    - search_api_autocomplete
+id: search_api_view
+label: 'Search API view'
+index_id: default_index
+suggester_settings:
+  server:
+    fields:
+      - title
+suggester_weights:
+  server: 0
+suggester_limits:
+  server: 3
+search_settings:
+  'views:search_api_view':
+    displays:
+      default: true
+      selected: {  }
+options:
+  limit: 10
+  min_length: 1
+  show_count: true
+  delay: null
+  submit_button_selector: ':submit'
+  autosubmit: true

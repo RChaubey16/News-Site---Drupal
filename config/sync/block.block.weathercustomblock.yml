@@ -83,7 +83,7 @@ settings:
       visibility_tabs__active_tab: edit-visibility-entity-bundlenode
     weight: '0'
     region: header_details_block_1
-    form_build_id: form-RxWXbOMGQTXQ8ADh5t-WIY6_UMQ46cCz53-b4eH6lsY
+    form_build_id: form-oqUA6WNO3zONiEQ9LvSnl6Gk9hO9Z4NSRDkXw7KW7Rc
     form_token: rNsFIn-jLtB6ckV0I656c11cL3ni7wSui2vzzKmVNYs
     form_id: block_form
     op: 'Save block'

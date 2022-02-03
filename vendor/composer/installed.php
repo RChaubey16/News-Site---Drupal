@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'e1210ea0698abce8e36a1f2190c8fbea2f4be33f',
+        'reference' => '95dae4f72d42a8c9e1b44229d5ce772e207f9973',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -239,6 +239,15 @@
             'install_path' => __DIR__ . '/../../modules/contrib/adminimal_admin_toolbar',
             'aliases' => array(),
             'reference' => '8.x-1.11',
+            'dev_requirement' => false,
+        ),
+        'drupal/adsense' => array(
+            'pretty_version' => '1.2.0',
+            'version' => '1.2.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/adsense',
+            'aliases' => array(),
+            'reference' => '8.x-1.2',
             'dev_requirement' => false,
         ),
         'drupal/aggregator' => array(
@@ -649,6 +658,15 @@
                 0 => '9.3.0',
             ),
         ),
+        'drupal/facets' => array(
+            'pretty_version' => '2.0.1',
+            'version' => '2.0.1.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/facets',
+            'aliases' => array(),
+            'reference' => '2.0.1',
+            'dev_requirement' => false,
+        ),
         'drupal/field' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -769,7 +787,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'e1210ea0698abce8e36a1f2190c8fbea2f4be33f',
+            'reference' => '95dae4f72d42a8c9e1b44229d5ce772e207f9973',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -920,6 +938,15 @@
             'install_path' => __DIR__ . '/../../modules/contrib/search_api',
             'aliases' => array(),
             'reference' => '8.x-1.21',
+            'dev_requirement' => false,
+        ),
+        'drupal/search_api_autocomplete' => array(
+            'pretty_version' => '1.6.0',
+            'version' => '1.6.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/search_api_autocomplete',
+            'aliases' => array(),
+            'reference' => '8.x-1.6',
             'dev_requirement' => false,
         ),
         'drupal/search_api_page' => array(

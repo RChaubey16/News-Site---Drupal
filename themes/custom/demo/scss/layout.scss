@@ -30,11 +30,13 @@
   }
 
   .header__search{
+    padding-top: 3rem;
     display: none;
     position: fixed;
     width: 85%;
-    height:29vh;
-    background-color:rgba(255, 255, 255, 0.95);
+    height:43vh;
+    background-color:white;
+    // background-color:rgba(255, 255, 255, 0.95);
     z-index: 2;
   }
 

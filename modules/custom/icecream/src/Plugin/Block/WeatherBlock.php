@@ -79,23 +79,36 @@ class WeatherBlock extends BlockBase
 
         // Icon based on forecast
         if ($forecast == "clear") {
-            $icon__class = "<i class='fas fa-sun'></i>";
+            // $icon__class = "<i class='fas fa-sun'></i>";
+            $icon__class = "fa-sun";
         } elseif ($forecast == "clouds") {
-            $icon__class = "<i class='fas fa-cloud'></i>";
+            $icon__class = "fa-cloud";
         } elseif ($forecast == 'mist') {
-            $icon__class =  "<i class='fas fa-snowflake'></i>";
+            // $icon__class =  "<i class='fas fa-snowflake'></i>";
+            $icon__class =  "fa-snowflake";
         } elseif ($forecast == 'rainy') {
-            $icon__class =  "<i class='fas fa-cloud-rain'></i>";
+            // $icon__class =  "<i class='fas fa-cloud-rain'></i>";
+            $icon__class =  "fa-cloud-rain";
+        } else {
+            $icon__class = "fa-cloud-sun";
         }
 
         if ($typeOfData == "weather") {
-            return [
-                "#markup" => "<p> " . $weatherData->name . " " . $weatherData->main->temp . " °C " . $icon__class . "
-                </p>",
-                '#attributes' => [
-                    'class' => ['weather__block'],
-                ],
+            // return [
+            //     "#markup" => "<p> " . $weatherData->name . " " . $weatherData->main->temp . " °C " . $icon__class . "
+            //     </p>",
+            //     '#attributes' => [
+            //         'class' => ['weather__block'],
+            //     ],
 
+            // ];
+
+            return [
+                "#theme" => "weather_pollution",
+                "#city" => $weatherData->name,
+                "#data" => $weatherData->main->temp . " °C ",
+                "#icon" => $icon__class,
+                "#class" => "weather__red",
             ];
         } elseif ($typeOfData == "pollution") {
             $lon = $weatherData->coord->lon;
@@ -114,11 +127,18 @@ class WeatherBlock extends BlockBase
                 $pollution_class = "poor__red";
             }
 
+            // return [
+            //     "#markup" => " " . $weatherData->name . " Pollution " . $rate . " AQI",
+            //     '#attributes' => [
+            //         'class' => [$pollution_class],
+            //     ],
+            // ];
+
             return [
-                "#markup" => " " . $weatherData->name . " Pollution " . $rate . " AQI",
-                '#attributes' => [
-                    'class' => [$pollution_class],
-                ],
+                "#theme" => "weather_pollution",
+                "#city" => $weatherData->name,
+                "#data" => $rate . " AQI",
+                "#class" => $pollution_class,
             ];
         }
     }

@@ -11,7 +11,7 @@ dependencies:
 id: views_block__search_cross_icon_block_1
 theme: demo
 region: search_box
-weight: -31
+weight: -47
 provider: null
 plugin: 'views_block:search_cross_icon-block_1'
 settings:

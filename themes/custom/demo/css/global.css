@@ -45,21 +45,29 @@
 }
 
 .weather__block {
+  border-radius: 5px;
+}
+
+.weather__red {
+  padding: 4px;
   background-color: #e33b26;
   border-radius: 5px;
 }
 
 .good__green {
+  padding: 4px;
   background: green !important;
   border-radius: 5px;
 }
 
 .moderate__yellow {
+  padding: 4px;
   background: #FFD700 !important;
   border-radius: 5px;
 }
 
 .poor__red {
+  padding: 4px;
   background: red !important;
   border-radius: 5px;
 }

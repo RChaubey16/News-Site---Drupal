@@ -1,12 +1,18 @@
 // search form
 .block-views-exposed-filter-blocksearch-api-view-page-1 {
-    border-bottom: 1px dotted gray;
-    padding: 2rem 0;
+
+  h2{
+    text-align: center;
+  }
+
+  border-bottom: 1px dotted gray;
+  padding: 2rem 0;
   #views-exposed-form-search-api-view-page-1 {
     .form--inline {
       display: flex;
+      flex-direction: column;
       justify-content: center;
-      align-items: center;
+      // align-items: center;
 
       .form-text {
         width: 1000px !important;
@@ -21,22 +27,37 @@
       .form-actions {
         padding: 0 !important;
         input {
-            height: 30px;
-            color: white;
-            font-size: 0.8rem;
-            font-weight: bold;
-            background: red !important;
+          height: 30px;
+          color: white;
+          font-size: 0.8rem;
+          font-weight: bold;
+          background: red !important;
           border-radius: 5px !important;
-            transition: .25s ease-in-out;
-          &:hover{
-              background: gray !important;
+          transition: 0.25s ease-in-out;
+          &:hover {
+            background: gray !important;
           }
-
         }
       }
     }
   }
 }
+
+.block-page-title-block {
+  .content h1 {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+}
+
+
+.region-content{
+  display: flex;
+}
+
+
+
 
 // search results
 .views-element-container {
@@ -45,7 +66,7 @@
     display: flex;
     justify-content: flex-end;
     .view-content {
-      width: 80%;
+      width: 95%;
       padding-left: 15px;
       border-left: 2px dotted grey;
       .views-row {
@@ -79,4 +100,3 @@
     }
   }
 }
-

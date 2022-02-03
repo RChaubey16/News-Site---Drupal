@@ -17,6 +17,8 @@ regions:
   primary_menu: 'Primary Menu'
   hamburger_menu: 'Hamburger Menu'
   banner_top: 'Banner (top)'
+  search_page_block: 'Search Page Block'
+  search_page_block_sidebar: 'Search Page Block Sidebar'
   content: 'Content'
   content_highlight: 'content_highlight'
   content_column_1: 'content_column_1'

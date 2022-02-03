@@ -12,7 +12,7 @@ dependencies:
 id: articlesocialblock
 theme: demo
 region: content
-weight: -41
+weight: -40
 provider: null
 plugin: 'block_content:02e92bd8-e3a1-4e01-973b-3fee312df01f'
 settings:
@@ -27,4 +27,4 @@ visibility:
   request_path:
     id: request_path
     negate: true
-    pages: /search-api-view
+    pages: /topic

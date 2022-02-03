@@ -11,7 +11,7 @@ _core:
 id: demo_content
 theme: demo
 region: content
-weight: -42
+weight: -41
 provider: null
 plugin: system_main_block
 settings:

@@ -12,10 +12,16 @@ global-styling:
       css/global.css: { weight: -10 }
       css/articles.css: { weight: -10 }
       css/responsive.css: { weight: -10 }
-      css/search.css: {weight: -10 }
+      # css/search.css: {weight: -10 }
     layout:
       css/layout.css: { weight: -10 }
       css/articleLayout.css: { weight: -10 }
+
+search_styles:
+  version: 1.0
+  css:
+    theme:
+      css/search.css: {weight: -10 }
 
 global-scripts:
   version: 1.0

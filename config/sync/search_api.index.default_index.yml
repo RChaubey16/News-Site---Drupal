@@ -3,8 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_image
     - field.storage.node.body
+    - field.storage.node.field_image
     - field.storage.node.field_tags
     - search_api.server.default_server
     - core.entity_view_mode.node.search_index
@@ -32,7 +32,7 @@ field_settings:
     label: Body
     datasource_id: 'entity:node'
     property_path: body
-    type: text
+    type: string
     dependencies:
       config:
         - field.storage.node.body
@@ -109,7 +109,7 @@ field_settings:
     label: 'Content type'
     datasource_id: 'entity:node'
     property_path: type
-    type: string
+    type: text
     dependencies:
       module:
         - node
