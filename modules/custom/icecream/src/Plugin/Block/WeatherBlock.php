@@ -4,6 +4,9 @@ namespace Drupal\icecream\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Form\FormStateInterface;
+use \Drupal\user\Entity\User;
+
+
 
 /**
  *  @Block(
@@ -58,16 +61,16 @@ class WeatherBlock extends BlockBase
      */
     public function blockSubmit($form, FormStateInterface $form_state)
     {
-
         $this->configuration['weather_block_mode'] = $form_state->getUserInput('city');
 
         $this->city = $form_state->getUserInput('city');
         $messenger = \Drupal::messenger();
-        // $messenger->addMessage('Weather city accepted' . $this->city['city']);
     }
 
     public function build()
     {
+        $current_user = \Drupal::currentUser();
+        $account = User::load($current_user->id())->getCacheTags();
 
         $config = $this->getConfiguration();
         $city = $config['weather_block_mode']['city'];
@@ -94,14 +97,6 @@ class WeatherBlock extends BlockBase
         }
 
         if ($typeOfData == "weather") {
-            // return [
-            //     "#markup" => "<p> " . $weatherData->name . " " . $weatherData->main->temp . " °C " . $icon__class . "
-            //     </p>",
-            //     '#attributes' => [
-            //         'class' => ['weather__block'],
-            //     ],
-
-            // ];
 
             return [
                 "#theme" => "weather_pollution",
@@ -109,6 +104,12 @@ class WeatherBlock extends BlockBase
                 "#data" => $weatherData->main->temp . " °C ",
                 "#icon" => $icon__class,
                 "#class" => "weather__red",
+                "#cache" => [
+                    'keys' => ['weather_api'],
+                    'tags' => ['weather_city: ' . $weatherData->name],
+                    'max-age' => 10000,
+                    'bin' => 'render',
+                ],
             ];
         } elseif ($typeOfData == "pollution") {
             $lon = $weatherData->coord->lon;
@@ -127,18 +128,18 @@ class WeatherBlock extends BlockBase
                 $pollution_class = "poor__red";
             }
 
-            // return [
-            //     "#markup" => " " . $weatherData->name . " Pollution " . $rate . " AQI",
-            //     '#attributes' => [
-            //         'class' => [$pollution_class],
-            //     ],
-            // ];
-
             return [
                 "#theme" => "weather_pollution",
                 "#city" => $weatherData->name,
                 "#data" => $rate . " AQI",
                 "#class" => $pollution_class,
+                "#cache" => [
+                    'keys' => ['pollution_api' . $weatherData->name],
+                    'tags' => ['pollution_city: ' . $weatherData->name ],
+                    'max-age' => 60,
+                    'bin' => 'render',
+                ]
+
             ];
         }
     }

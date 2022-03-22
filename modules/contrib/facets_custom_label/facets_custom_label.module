@@ -1,0 +1,31 @@
+<?php
+
+/**
+ * @file
+ * Hook implementations for the facets_custom_label module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function facets_custom_label_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the facets_custom_label module.
+    case 'help.page.facets_custom_label':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('<em>Facets Custom Label</em> module is a facet processor which lets you rename / relabel facets items.') . '</p>';
+      $output .= '<h3>' . t('Features') . '</h3>';
+      $output .= '<ul>';
+      $output .= '<li>' . t('Relabels facets by:');
+      $output .= '<ul>';
+      $output .= '<li>' . t('their raw value: machine name or content IDs,') . '</li>';
+      $output .= '<li>' . t('their display value: content titles, term names.') . '</li>';
+      $output .= '</ul></li></ul>';
+      $output .= '<h3>' . t('Usage') . '</h3>';
+      $output .= '<p>' . t('For complete usage directions and examples, please visit the <a href="@href" title="Link to the module page">module page on drupal.org</a>.', ['@href' => 'https://www.drupal.org/project/facets_custom_label']) . '</p>';
+      return $output;
+  }
+}

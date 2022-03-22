@@ -1,0 +1,24 @@
+uuid: f7e7e59b-b28f-46bf-a87b-727385f1b7a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.topics_facet
+  module:
+    - facets
+  theme:
+    - demo
+id: topics
+theme: demo
+region: search_page_block_sidebar
+weight: 0
+provider: null
+plugin: 'facet_block:topics_facet'
+settings:
+  id: 'facet_block:topics_facet'
+  label: Topics
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: topics
+visibility: {  }

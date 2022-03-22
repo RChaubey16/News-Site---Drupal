@@ -1,14 +1,13 @@
 <?php
 
-namespace  Drupal\icecream\Plugin\Block;
+namespace  Drupal\icecream\Services;
 
 
 
 class Weather
 {
     public function getWeather($city){
-		
-        $apiKey = "1f5cb8219df8e3067dd65255da42dd9f";
+        $apiKey = \Drupal::config('icecream.settings')->get('weather_apiKey');
         $city = $city;
         $googleApiUrl = "http://api.openweathermap.org/data/2.5/weather?q=".$city.",IN,IN&units=metric&appid=".$apiKey;
 
@@ -46,6 +45,8 @@ class Weather
     }
 
     public function name(){
-        return "Raj";
+        return [
+            '#markup' => $this->t("Raj"),
+        ];
     }
 }

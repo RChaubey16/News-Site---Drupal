@@ -13,7 +13,7 @@ _core:
 id: demo_footer
 theme: demo
 region: header_details_block_1
-weight: -24
+weight: -39
 provider: null
 plugin: 'system_menu_block:footer'
 settings:

@@ -9,7 +9,7 @@ dependencies:
 id: weathersystemwidedisplay1
 theme: demo
 region: header_details_block_1
-weight: 0
+weight: -34
 provider: null
 plugin: 'weather_system_display_block:1'
 settings:

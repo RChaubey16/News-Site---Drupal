@@ -1,0 +1,5 @@
+name: Search Result
+description: A demo custom search module
+type: module
+package: Custom
+core_version_requirement: ^8 || ^9

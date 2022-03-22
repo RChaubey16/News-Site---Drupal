@@ -12,7 +12,7 @@ dependencies:
 id: demo_views_block__breaking_news_block_1
 theme: demo
 region: header_details_block_1
-weight: -27
+weight: -42
 provider: null
 plugin: 'views_block:breaking_news-block_1'
 settings:

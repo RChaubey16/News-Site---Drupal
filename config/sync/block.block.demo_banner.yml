@@ -11,7 +11,7 @@ dependencies:
 id: demo_banner
 theme: demo
 region: header_details_block_1
-weight: -22
+weight: -37
 provider: null
 plugin: 'block_content:71e2515a-8928-4d9c-9874-6f8e1224eb47'
 settings:

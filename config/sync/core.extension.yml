@@ -22,6 +22,7 @@ module:
   contact: 0
   contextual: 0
   ctools: 0
+  date_popup: 0
   datetime: 0
   dblog: 0
   devel: 0
@@ -31,6 +32,7 @@ module:
   dynamic_page_cache: 0
   editor: 0
   facets: 0
+  facets_custom_label: 0
   facets_rest: 0
   facets_searchbox_widget: 0
   facets_summary: 0
@@ -45,6 +47,9 @@ module:
   icecream: 0
   image: 0
   interval: 0
+  jquery_ui: 0
+  jquery_ui_datepicker: 0
+  jquery_ui_slider: 0
   language: 0
   layout_discovery: 0
   link: 0
@@ -52,6 +57,7 @@ module:
   media: 0
   menu_link_content: 0
   menu_ui: 0
+  metatag: 0
   node: 0
   options: 0
   page_cache: 0
@@ -65,6 +71,7 @@ module:
   search_api_autocomplete: 0
   search_api_db: 0
   search_api_db_defaults: 0
+  search_result: 0
   serialization: 0
   shortcut: 0
   slick: 0

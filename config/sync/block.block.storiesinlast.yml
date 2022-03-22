@@ -1,0 +1,24 @@
+uuid: ec078884-6cd3-467d-8b75-09222858eb81
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.authored_on
+  module:
+    - facets
+  theme:
+    - demo
+id: storiesinlast
+theme: demo
+region: search_page_block_sidebar
+weight: -48
+provider: null
+plugin: 'facet_block:authored_on'
+settings:
+  id: 'facet_block:authored_on'
+  label: 'Stories in Last'
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: storiesinlast
+visibility: {  }

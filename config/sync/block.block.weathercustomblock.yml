@@ -1,4 +1,4 @@
-uuid: 284cfa6c-c685-4616-96c6-4ef16f570725
+uuid: 5161a1d4-f330-41b0-9cee-2a4f1caf37b4
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
 id: weathercustomblock
 theme: demo
 region: header_details_block_1
-weight: 0
+weight: -47
 provider: null
 plugin: icecream_weather_module
 settings:
@@ -17,14 +17,13 @@ settings:
   label: 'Weather custom block'
   label_display: '0'
   provider: icecream
-  custom_block_mode: null
   weather_block_mode:
     settings:
       label: 'Weather custom block'
-      weather_or_pollution: weather
+      weather_or_pollution: pollution
       admin_label: null
       label_display: null
-    city: Pune
+    city: Mumbai
     visibility:
       request_path:
         pages: ''
@@ -81,10 +80,10 @@ settings:
           administrator: null
     visibility_tabs:
       visibility_tabs__active_tab: edit-visibility-entity-bundlenode
-    weight: '0'
+    weight: '-47'
     region: header_details_block_1
-    form_build_id: form-oqUA6WNO3zONiEQ9LvSnl6Gk9hO9Z4NSRDkXw7KW7Rc
-    form_token: rNsFIn-jLtB6ckV0I656c11cL3ni7wSui2vzzKmVNYs
+    form_build_id: form-CaElgMKOwP5Ybg97JbJuFXRAAxaJGExbmFQnsksiv28
+    form_token: dst8jJw5pUkeppbUGwb4oZjC5ZoJO5J0A5UpWPHY8jQ
     form_id: block_form
     op: 'Save block'
 visibility: {  }

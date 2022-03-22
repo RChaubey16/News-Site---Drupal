@@ -1,7 +1,6 @@
 // search form
 .block-views-exposed-filter-blocksearch-api-view-page-1 {
-
-  h2{
+  h2 {
     text-align: center;
   }
 
@@ -51,13 +50,46 @@
   }
 }
 
-
-.region-content{
+.region-content {
   display: flex;
 }
 
+.region-search-page-block-sidebar {
+  .facets-wrapper {
+    h2 {
+      font: 700 14px/20px Montserrat, Verdana, arial, sans-serif;
+      margin-bottom: 16px;
+    }
+    ul {
+      li {
+        margin-bottom: 12px;
+        display: block;
+        color: #5e5e5e;
+        cursor: pointer;
+        text-transform: capitalize;
+        a {
+          border-bottom: none !important;
+          span {
+            color: #5e5e5e;
+            transition: all 0.25s;
+            &:hover {
+              color: red;
+            }
+          }
+        }
+      }
+    }
+  }
 
-
+  .facets-widget-searchbox_links {
+    input {
+      background-color: lightgray;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+    }
+  }
+}
 
 // search results
 .views-element-container {

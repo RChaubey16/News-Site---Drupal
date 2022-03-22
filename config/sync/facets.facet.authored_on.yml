@@ -1,4 +1,4 @@
-uuid: 81cdd2b4-f1e0-4ac9-8eec-ab64f58823f6
+uuid: 3dfb1140-ce72-4d36-99cf-1837d1993dbd
 langcode: en
 status: true
 dependencies:
@@ -7,13 +7,13 @@ dependencies:
     - views.view.search_api_view
   module:
     - search_api
-id: authors
-name: Authors
+id: authored_on
+name: 'Stories in Last'
 weight: 0
 min_count: 1
-url_alias: authors
+url_alias: authored_on
 facet_source_id: 'search_api:views_page__search_api_view__page_1'
-field_identifier: author
+field_identifier: created
 query_operator: or
 hard_limit: 0
 exclude: false
@@ -25,10 +25,10 @@ hierarchy:
 expand_hierarchy: false
 enable_parent_when_child_gets_disabled: true
 widget:
-  type: searchbox_links
+  type: links
   config:
     show_numbers: false
-    soft_limit: 0
+    soft_limit: 5
     show_reset_link: false
     reset_text: 'Show all'
     hide_reset_when_no_selection: false
@@ -41,24 +41,20 @@ only_visible_when_facet_source_is_visible: true
 show_only_one_result: false
 show_title: false
 processor_configs:
-  active_widget_order:
-    processor_id: active_widget_order
+  date_item:
+    processor_id: date_item
     weights:
-      sort: 20
+      build: 35
     settings:
-      sort: DESC
-  count_widget_order:
-    processor_id: count_widget_order
-    weights:
-      sort: 30
-    settings:
-      sort: DESC
+      date_display: relative_date
+      granularity: 4
+      date_format: ''
   display_value_widget_order:
     processor_id: display_value_widget_order
     weights:
       sort: 40
     settings:
-      sort: ASC
+      sort: DESC
   url_processor_handler:
     processor_id: url_processor_handler
     weights:

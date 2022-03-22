@@ -1,0 +1,13 @@
+{
+    "name": "drupal/facets_custom_label",
+    "description": "Provides tre ability to customize facets labels by mapping original values to desired display value.",
+    "type": "drupal-module",
+    "license": "GPL-2.0+",
+    "homepage": "https://www.drupal.org/project/facets_custom_label",
+    "authors": [
+        {
+            "name": "Dakwamine",
+            "email": "dakwamine@gmail.com"
+        }
+    ]
+}

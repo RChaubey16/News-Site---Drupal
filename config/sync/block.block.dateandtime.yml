@@ -11,7 +11,7 @@ dependencies:
 id: dateandtime
 theme: demo
 region: header_details_block_1
-weight: 0
+weight: -48
 provider: null
 plugin: 'block_content:3bf88723-05b4-4c46-8575-c3f12367b9bd'
 settings:

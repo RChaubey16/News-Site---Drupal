@@ -34,15 +34,19 @@
 	<div class="search__page">
 
 		<div class="search_bar_content">
-			{{ page.search_page_block }}    
+			{{ page.search_page_block }}
 		</div>
 
 	</div>
 
 	<div class="layout__mainContent">
-		{% if page.content %}
-			{{ page.content }}
-		{% endif %}
+		<div class="layout__searchContent">
+			{% if page.content %}
+				{{ page.search_page_block_sidebar }}
+				{{ page.content }}
+			{% endif %}
+		</div>
+
 	</div>
 
 

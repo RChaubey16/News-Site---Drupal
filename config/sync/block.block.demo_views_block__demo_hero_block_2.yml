@@ -11,7 +11,7 @@ dependencies:
 id: demo_views_block__demo_hero_block_2
 theme: demo
 region: header_details_block_1
-weight: -25
+weight: -40
 provider: null
 plugin: 'views_block:demo_hero-block_2'
 settings:

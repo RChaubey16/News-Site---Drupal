@@ -60,6 +60,12 @@
   width: 100%;
 }
 
+.layout__searchContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 /* Main */
 .layout__main {
   display: -webkit-box;

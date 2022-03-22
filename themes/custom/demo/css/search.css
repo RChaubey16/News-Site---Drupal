@@ -61,6 +61,40 @@
   display: flex;
 }
 
+.region-search-page-block-sidebar .facets-wrapper h2 {
+  font: 700 14px/20px Montserrat, Verdana, arial, sans-serif;
+  margin-bottom: 16px;
+}
+
+.region-search-page-block-sidebar .facets-wrapper ul li {
+  margin-bottom: 12px;
+  display: block;
+  color: #5e5e5e;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.region-search-page-block-sidebar .facets-wrapper ul li a {
+  border-bottom: none !important;
+}
+
+.region-search-page-block-sidebar .facets-wrapper ul li a span {
+  color: #5e5e5e;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.region-search-page-block-sidebar .facets-wrapper ul li a span:hover {
+  color: red;
+}
+
+.region-search-page-block-sidebar .facets-widget-searchbox_links input {
+  background-color: lightgray;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
 .views-element-container .search-api-view {
   margin-top: 1.5rem;
   display: -webkit-box;

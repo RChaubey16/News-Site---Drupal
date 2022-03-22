@@ -12,7 +12,7 @@ dependencies:
 id: views_block__home_page_news_list_sidebar_first__block_1
 theme: demo
 region: header_details_block_1
-weight: -28
+weight: -43
 provider: null
 plugin: 'views_block:home_page_news_list_sidebar_first_-block_1'
 settings:

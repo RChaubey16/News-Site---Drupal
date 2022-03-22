@@ -1,0 +1,8 @@
+entity_type_groups: {  }
+tag_trim_method: beforeValue
+tag_trim_maxlength:
+  metatag_maxlength_description: null
+  metatag_maxlength_title: null
+  metatag_maxlength_abstract: null
+tag_scroll_enable: true
+tag_scroll_max_height: 500

@@ -10,13 +10,13 @@ dependencies:
     - demo
 id: tags
 theme: demo
-region: content
+region: search_page_block_sidebar
 weight: -46
 provider: null
 plugin: 'facet_block:topics'
 settings:
   id: 'facet_block:topics'
-  label: Tags
+  label: Authors
   label_display: visible
   provider: facets
   context_mapping: {  }

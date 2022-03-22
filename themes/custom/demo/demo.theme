@@ -99,6 +99,7 @@ function demo_preprocess_container(&$variables){
         $variables['#attached']['library'][] = 'demo/search_styles';
     }
     $variables['route__name'] = $route_name;
+    
     // kint($variables);
 }
 

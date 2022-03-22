@@ -11,7 +11,7 @@ dependencies:
 id: demo_views_block__slideshow_hero_banner_block_1
 theme: demo
 region: header_details_block_1
-weight: -23
+weight: -38
 provider: null
 plugin: 'views_block:slideshow_hero_banner-block_1'
 settings:

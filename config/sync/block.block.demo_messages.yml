@@ -11,7 +11,7 @@ _core:
 id: demo_messages
 theme: demo
 region: header_details_block_1
-weight: -30
+weight: -45
 provider: null
 plugin: system_messages_block
 settings:
